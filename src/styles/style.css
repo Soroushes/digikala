@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'digikala';
+    src: url('./font/IRANSans.eot');
+    src: url('./font/IRANSans.woff2') format('woff2'),
+    url('./font/IRANSans.woff') format('woff');
+}
+
+body {
+    font-family: digikala;
+    box-sizing: border-box;
+    color : #333 ;
+
+}
+.enter-button {
+    background: white;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 8px 2px;
+    border-radius: 10px;
+}
+.search-bar{
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    height: 200px;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    padding: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.searched-item{
+    height: 100px;
+}
+.searched-item img{
+    height: 100%;
+    width: 100%;
+}
