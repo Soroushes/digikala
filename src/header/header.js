@@ -3,6 +3,7 @@ import {useState , useEffect} from "react";
 import {Container , Row , Col , Button} from "reactstrap";
 import Search from "./search";
 import axios from "axios";
+import Enterbtn from "./enterBtn";
 
 const Header = ()=>{
     const [loading , setLoading] = useState(false) ;
@@ -35,7 +36,7 @@ const Header = ()=>{
                         <Search onSearch={onSearch} load={loading}/>
                     </Col>
                     <Col md={2}>
-                        <button className={"enter-button w-75"}>ورود | ثبت نام</button>
+                        <Enterbtn>ورود | ثبت نام</Enterbtn>
                     </Col>
                 </Row>
             </Container>
