@@ -1,5 +1,5 @@
 {
-  "header"  :[],
+  "header"  :["سوپرمارکت" , "تخفیف ها و پیشنهادها" ,"سوالی دارید ؟ " ,"فروشنده شوید","شگفت انگیزها" ,"پرفروش ترین ها"],
   "search" : [
     {
       "id": 1,
@@ -240,6 +240,20 @@
         "rate": 3.6,
         "count": 145
       }
+    }
+  ] ,
+  "slider" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/85bf1bc63736102a834614ae81f571913c8cb3fc_1662558548.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/48cb707d4206a7026c2338b7e04de0f97b5a1efe_1662559804.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/815488a889161520221fd993afe76cbc603e7f30_1662725327.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/7c84900a43d7212e11fa99b87e13ad7aaf70974b_1662552338.jpg?x-oss-process=image/quality,q_95"
     }
   ]
 }

@@ -21,7 +21,7 @@ body {
 }
 .search-input{
     display: block;
-    padding: 10px 0px;
+    height: 100%;
     width: 100%;
     border: 0px;
     background-color: transparent;
@@ -30,6 +30,8 @@ body {
     outline: none;
 }
 .search-bar{
+    right: 0;
+    top: 0;
     max-height: 400px;
     background-color: white;
     border: 1px solid #ccc;
@@ -48,4 +50,15 @@ body {
 .searched-item img{
     height: 100%;
     width: 100%;
+}
+.header-items{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+.header-items li {
+    font-size: 12px;
+    cursor: pointer;
 }
