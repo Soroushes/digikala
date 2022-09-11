@@ -28,8 +28,8 @@ const Slider = ()=>{
                     className="mySwiper"
                 >
                     {
-                        sliderItems.map((pics)=>{
-                            return <SwiperSlide><img className={"w-100"} src={pics.img} alt=""/></SwiperSlide>
+                        sliderItems.map((pics , index)=>{
+                            return <SwiperSlide key={index}><img className={"w-100"} src={pics.img} alt=""/></SwiperSlide>
                         })
                     }
                 </Swiper>

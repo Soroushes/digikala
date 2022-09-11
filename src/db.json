@@ -255,5 +255,35 @@
     {
       "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/7c84900a43d7212e11fa99b87e13ad7aaf70974b_1662552338.jpg?x-oss-process=image/quality,q_95"
     }
+  ] ,
+  "rowpics" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/967cbaa25713ca4d0e58cb5aaf0e486ab986d460_1648898393.png" ,
+      "title" : "ماموریت ها"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/258db5bf0ff7b28dbae1bfb3dfaa71bfff32faf9_1654679397.png" ,
+      "title" : "حراح پایان فصل"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/d25c551f15afbe37332585853b5aa51dca4f5e93_1661170707.png" ,
+      "title" : "بازگشت به مدرسه"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/280c887d3f64aba7baf543406ea26ff6f949faae_1662206390.png" ,
+      "title" : "مهربانی در مهر"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/ac127167132653d14c758748b07824a6a7643a31_1648897095.png" ,
+      "title" : "دیجی پی"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/625d8883f37944f3f0c4af5fe39435600931ab22_1655015296.png" ,
+      "title" : "قرعه کشی آیفون13"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png" ,
+      "title" : "دیجیکالا جت"
+    }
   ]
 }

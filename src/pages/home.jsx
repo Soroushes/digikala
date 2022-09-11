@@ -1,7 +1,12 @@
 import Slider from '../containers/slider'
+import RowOfPics from "../containers/rowOfPics";
+
 const Home = ()=>{
     return(
-        <Slider/>
+        <>
+            <Slider/>
+            <RowOfPics/>
+        </>
     )
 }
 export default Home ;
