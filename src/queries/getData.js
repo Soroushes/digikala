@@ -1,8 +1,8 @@
 import axios from 'axios';
-const getRowPicsItems = async ()=>{
+const getData = async (route)=>{
     try {
         const {data} = await axios({
-            url : "http://localhost:3000/rowpics" ,
+            url : "http://localhost:3000/"+route ,
             method : "get"
         })
         return data ;
@@ -10,4 +10,4 @@ const getRowPicsItems = async ()=>{
         return false
     }
 }
-export default getRowPicsItems ;
+export default getData ;

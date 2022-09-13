@@ -1,6 +1,6 @@
-const CircleImg = ({img , title , font=10})=>{
+const CircleImg = ({img , title='' , font=10})=>{
     return(
-        <div className={'p-2 my-2'}>
+        <div className={'px-2 px-md-5 px-lg-2 my-4'}>
             <p><img className={'w-100'} src={img} alt={title}/></p>
             <p className={'text-center'} style={{fontSize : font}}>{title}</p>
         </div>

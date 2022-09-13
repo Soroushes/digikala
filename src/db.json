@@ -284,6 +284,81 @@
     {
       "img" : "https://dkstatics-public.digikala.com/digikala-bellatrix/d0dc31c892be8cf1408e4e14580b3f479da66bd1_1648897133.png" ,
       "title" : "دیجیکالا جت"
+    },
+    {
+      "img" : "./svg/more.svg" ,
+      "title" : "بیشتر"
     }
+  ] ,
+  "miniproducts" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    }
+    ,    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/114574849.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 55,
+      "price" : "2,800,000" ,
+      "oldPrice" : "6,200,000"
+    }
+  ] ,
+  "miniproductsimg"  : [
+    "https://www.digikala.com/statics/img/svg/amazing-typo.svg" ,
+    "https://www.digikala.com/statics/img/png/specialCarousel/box.png"
   ]
 }

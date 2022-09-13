@@ -1,7 +1,7 @@
 import {Col, Container, Row} from "reactstrap";
 import CircleImg from "../base/circleImg";
 import {useEffect, useState} from "react";
-import getRowPicsItems from "../queries/getRowPicsItems";
+import getData from "../queries/getData";
 
 const RowOfPics = ()=>{
     useEffect(()=>{
@@ -9,17 +9,17 @@ const RowOfPics = ()=>{
     },[]) ;
     const [rowPictures , setRowPictures] = useState([]) ;
     const getRowPictures = async ()=>{
-        const result = await getRowPicsItems() ;
+        const result = await getData('rowpics') ;
         if (result) setRowPictures(result) ;
     }
     return(
         <Container>
-            <Row className={'justify-content-between'}>
+            <Row style={{minHeight : 100}} className={'justify-content-between'}>
                 {
                     rowPictures.map((item , index)=>{
                           return(
-                              <Col xs={3} md={1}>
-                                  <CircleImg key={index} img={item.img} title={item.title}/>
+                              <Col key={index} xs={3} lg={1}>
+                                  <CircleImg img={item.img} title={item.title}/>
                               </Col>
                           )
                     })
