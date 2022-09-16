@@ -14,11 +14,13 @@ const Slider = ()=>{
     const [sliderItems , setSliderItems] = useState([]) ;
     const getItems = async ()=>{
         const result = await getData('slider') ;
-        if (result)setSliderItems(result) ;
-        setLoading(false) ;
+        if (result){
+            setSliderItems(result) ;
+            setLoading(false) ;
+        }
     }
     return(
-        <Container className={'p-0 position-relative slider-container'} fluid>
+        <Container className={'p-0 position-relative d-flex justify-content-center slider-container'} fluid>
             {
                 loading ? <img className={'p-5'} src={'./img/loading.gif'} alt=""/> :
                     <>

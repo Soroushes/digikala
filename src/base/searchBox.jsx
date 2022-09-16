@@ -1,22 +1,22 @@
-import {Col, Row, Spinner} from "reactstrap";
-import EnterBtn from './enterBtn' ;
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import {Col, Row} from "reactstrap";
+import {Spin} from "antd";
+import {LoadingOutlined} from "@ant-design/icons";
 
-const SearchBox = ({loading , searchRes , onInput})=>{
+const SearchBox = ({loading , searchRes , onInput , click})=>{
     return(
-        <div className={"search-box w-100"} style={{display : onInput ? "block" : "none" , opacity : onInput ?  "1" : "0"}}>
+        <div data-click={'click'} className={"search-box w-100 justify-content-center flex-column align-items-center"} style={{display : onInput ? "flex" : "none" , opacity : onInput ?  "1" : "0"}}>
             {
-                searchRes.map((element)=>{
-                    return(
-                        <Row className={'mt-3'} key={element.id}>
-                            <Col md={3}><img className={'img-fluid'} src={element.image} alt={element.title}/></Col>
-                            <Col md={9}>{element.title}</Col>
-                        </Row>
-                    )
-                })
+                loading ?<Spin indicator={<LoadingOutlined style={{color : "red" , fontSize : 50}} spin/>}/> :
+                    searchRes.map((element)=>{
+                        return(
+                            <Row data-click={'click'} style={{cursor : "pointer"}} onClick={click.bind(this ,element.id)} className={'mt-3'} key={element.id}>
+                                <Col data-click={'click'} md={3}><img  data-click={'click'} className={'img-fluid'} src={element.image} alt={element.title}/></Col>
+                                <Col data-click={'click'} md={9}>{element.title}</Col>
+                            </Row>
+                        )
+                    })
             }
+
         </div>
     )
 }

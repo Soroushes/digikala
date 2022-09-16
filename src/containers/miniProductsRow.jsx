@@ -28,12 +28,15 @@ const MiniProductsRow = ()=>{
     return(
         <Container>
             <div className={'products-row'}>
+                <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/next.svg'} alt=""/></div>
+                <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
+
                 <Swiper
                     freeMode={true}
-                    modules={[FreeMode]}
                     spaceBetween={2}
                     className="mySwiper"
                     slidesPerView={1.8}
+                    modules={[FreeMode]}
                     breakpoints={{
                         450 : {
                           slidesPerView : 2.5

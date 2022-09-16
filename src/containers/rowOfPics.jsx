@@ -14,7 +14,7 @@ const RowOfPics = ()=>{
     }
     return(
         <Container>
-            <Row style={{minHeight : 100}} className={'justify-content-between'}>
+            <Row style={{minHeight : 100}} className={'m-0 justify-content-between'}>
                 {
                     rowPictures.map((item , index)=>{
                           return(

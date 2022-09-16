@@ -360,5 +360,90 @@
   "miniproductsimg"  : [
     "https://www.digikala.com/statics/img/svg/amazing-typo.svg" ,
     "https://www.digikala.com/statics/img/png/specialCarousel/box.png"
+  ] ,
+  "market" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/711da2d134616005f94665b01ef017c1068b9fb3_1619505782.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 66
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/711da2d134616005f94665b01ef017c1068b9fb3_1619505782.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 66
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/711da2d134616005f94665b01ef017c1068b9fb3_1619505782.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 66
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/711da2d134616005f94665b01ef017c1068b9fb3_1619505782.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 66
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/711da2d134616005f94665b01ef017c1068b9fb3_1619505782.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 66
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-products/711da2d134616005f94665b01ef017c1068b9fb3_1619505782.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+      "percent" : 66
+    }
+  ],
+  "productimg": [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/a8b4f0e0942a78d8c299f2b77cfe391fdc768b6f_1662729380.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/465049bf974851ebd7ec9547feeb7c74753619a6_1662729646.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/a165735b78a47eed0b30c90d6d5ce1d84d2a8819_1662876419.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/931e6e2352fcab48efc9e2412fe0e5e1b182e471_1663146364.jpg?x-oss-process=image/quality,q_95"
+    }
+  ] ,
+  "productsort": [
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    },
+    {
+      "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
+      "title" : "موبایل"
+    }
   ]
 }

@@ -24,14 +24,20 @@ const Search = ()=>{
             }
         },1000) ;
     };
-    // <Input onFocus={focus} onBlur={blur} onChange={change} value={value} placeholder={"جستجو"} className={"w-100"} style={{backgroundColor : onInput ? "" : "#eee"}}></Input>
-    const blur = ()=> setOnInput(false)
+    const clickedValue = (id)=>{
+        const result = searchRes.filter(product => product.id===id) ;
+        change({target : {value : result[0].title}}) ;
+    }
+    const blur = (e)=>{
+        if (!e.target.getAttribute('data-click')) setOnInput(false);
+    }
+    document.getElementById('root').addEventListener("click", blur) ;
     const focus = ()=>setOnInput(true) ;
     return(
         <>
-            <div className={'w-100 position-absolute search-bar shadow-sm'} style={{overflowY : onInput ? "scroll" : "" , backgroundColor : onInput ? "" : "#eee" }}>
-                <input className={"search-input"}  placeholder={'جستجو'} onFocus={focus} onBlur={blur} onChange={change} style={{borderBottom : onInput ? "1px solid #4ccddd" : ""}} value={value} type="text"/>
-                <SearchBox loading={loading} onInput={onInput} searchRes={searchRes}></SearchBox>
+            <div data-click={'click'} className={'w-100 position-absolute search-bar shadow-sm'} style={{overflowY : onInput ? "scroll" : "" , backgroundColor : onInput ? "" : "#eee" }}>
+                <input data-click={'click'} className={"search-input"} placeholder={'جستجو'} onClick={focus} onChange={change} style={{borderBottom : onInput ? "1px solid #4ccddd" : ""}} value={value} type="text"/>
+                <SearchBox data-click={'click'} click={clickedValue} loading={loading} onInput={onInput} searchRes={searchRes}></SearchBox>
             </div>
         </>
     )
