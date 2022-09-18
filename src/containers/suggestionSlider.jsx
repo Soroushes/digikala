@@ -5,9 +5,11 @@ import "swiper/css/bundle" ;
 import RoundedImg from "../base/roundedImg";
 import {useEffect, useState} from "react";
 import getData from "../queries/getData";
+import {Skeleton} from "antd";
 
 const SuggestionSlider = ()=>{
-    const [items , setItems] = useState([]) ;
+    const images = Array(20).fill(<><Skeleton.Avatar className={'my-2'} active size={70}/><Skeleton.Input block active size={'small'}/></>)
+    const [items , setItems] = useState(images) ;
     const [loading , setLoading] = useState(true);
     useEffect(()=>{
         getItems() ;
@@ -38,7 +40,10 @@ const SuggestionSlider = ()=>{
                             items.map((item , index)=>{
                                 return(
                                     <SwiperSlide key={index}>
-                                        <RoundedImg img={item.img} title={item.title}/>
+                                        {
+                                            loading ? <div className={'text-center overflow-hidden p-3'}>{item}</div> :
+                                                <RoundedImg img={item.img} title={item.title}/>
+                                        }
                                     </SwiperSlide>
                                 )
                             })
