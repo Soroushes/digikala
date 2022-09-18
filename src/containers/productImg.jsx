@@ -23,7 +23,7 @@ const ProductImg = ({xs , lg , route})=>{
                 {
                     products.map((product,index)=>{
                         return(
-                            <Col className={'mt-3'} key={index} xs={xs} lg={lg}>
+                            <Col className={'my-3'} key={index} xs={xs} lg={lg}>
                                 {
                                     loading ? product :
                                         <img className={'w-100 rounded-3'} src={product.img} alt=""/>

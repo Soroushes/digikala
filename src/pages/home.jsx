@@ -3,6 +3,8 @@ import RowOfPics from "../containers/rowOfPics";
 import MiniProductsRow from "../containers/miniProductsRow";
 import MarketOff from "../containers/MarketOff";
 import ProductImg from "../containers/productImg";
+import SuggestionSlider from "../containers/suggestionSlider";
+import "swiper/css/bundle";
 const Home = ()=>{
     return(
         <>
@@ -11,8 +13,10 @@ const Home = ()=>{
             <MiniProductsRow/>
             <MarketOff/>
             <ProductImg xs={6} lg={3} route={'productimg'}/>
+            <h2 style={{fontSize : 23}} className={'text-center my-4'}> دسته بندی های دیجیکالا</h2>
             <RowOfPics xs={3} lg={2} route={'productsort'} items={11} font={16} center={true}/>
             <ProductImg xs={6} lg={6} route={'productimg2'}/>
+            <SuggestionSlider/>
         </>
     )
 }
