@@ -445,5 +445,13 @@
       "img"  : "https://dkstatics-public.digikala.com/digikala-categories/aba1e5dca8958ac1176e25cd194ff8ac622cd383_1662362431.png",
       "title" : "موبایل"
     }
+  ] ,
+  "productimg2" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/0161f2bc2b93c0bb60df37970cab56f7dc454ef2_1663156136.jpg?x-oss-process=image/quality,q_95"
+    },
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/55f411fb2ef5e23d37beb8e44f6c89b00781231f_1663154698.jpg?x-oss-process=image/quality,q_95"
+    }
   ]
 }

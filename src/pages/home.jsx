@@ -11,8 +11,9 @@ const Home = ()=>{
             <RowOfPics/>
             <MiniProductsRow/>
             <MarketOff/>
-            <ProductImg/>
+            <ProductImg xs={6} lg={3} route={'productimg'}/>
             <ProductSort/>
+            <ProductImg xs={6} lg={6} route={'productimg2'}/>
         </>
     )
 }
