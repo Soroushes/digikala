@@ -19,7 +19,7 @@ const ProductSort =  ()=>{
                 {
                     items.map((item , index)=>{
                         return(
-                            <Col xs={4} lg={2}>
+                            <Col key={index} xs={4} lg={2}>
                                 <CircleImg img={item.img} title={item.title} font={16}/>
                             </Col>
                         )

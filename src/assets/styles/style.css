@@ -94,6 +94,11 @@ body {
 .prev-btn{
     right: 50px;
 }
+.loading-container{
+    width: 100%;
+    background-color: #f2f2f2;
+    height: 300px;
+}
 .slider-container:hover .prev-btn , .slider-container:hover .next-btn{
     opacity: 1;
 }

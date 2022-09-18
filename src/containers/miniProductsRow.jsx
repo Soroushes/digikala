@@ -10,7 +10,7 @@ import getData from "../queries/getData";
 
 
 const MiniProductsRow = ()=>{
-    const [loading , setLoading] = useState(false) ;
+    const [loading , setLoading] = useState(true) ;
     const [products , setProducts] = useState([]) ;
     const [image , setImages] = useState([]) ;
     useEffect(()=>{
@@ -27,52 +27,56 @@ const MiniProductsRow = ()=>{
     }
     return(
         <Container>
-            <div className={'products-row'}>
-                <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/next.svg'} alt=""/></div>
-                <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
+            {
+                loading ? <div className={'loading-container'}></div> :
+                    <div className={'products-row'}>
+                        <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/next.svg'} alt=""/></div>
+                        <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
 
-                <Swiper
-                    freeMode={true}
-                    spaceBetween={2}
-                    className="mySwiper"
-                    slidesPerView={1.8}
-                    modules={[FreeMode]}
-                    breakpoints={{
-                        450 : {
-                          slidesPerView : 2.5
-                        },
-                        640: {
-                            slidesPerView: 3
-                        },
-                        768: {
-                            slidesPerView: 3.5,
-                        },
-                        1000 : {
-                            slidesPerView : 5
-                        },
-                        1200: {
-                            slidesPerView: 6.5,
-                        }
-                    }}
-                >
-                    <SwiperSlide>
-                        <div className={'px-5'}>
-                            <img className={'w-100 mb-2'} src={image[0]} alt=""/>
-                            <img className={'w-100 mb-2'} src={image[1]} alt=""/>
-                            <p className={'text-center m-0 text-white'}>مشاهده همه</p>
-                        </div>
-                    </SwiperSlide>
-                    {
-                        products.map((product , index)=>{
-                            return(
-                                <SwiperSlide key={index}>
-                                    <MiniProducts img={product.img} percent={product.percent} oldPrice={product.oldPrice} newPrice={product.price}/>
-                                </SwiperSlide>
-                            )
-                        })
-                    }
-                </Swiper>
-            </div>
+                        <Swiper
+                            freeMode={true}
+                            spaceBetween={2}
+                            className="mySwiper"
+                            slidesPerView={1.8}
+                            modules={[FreeMode]}
+                            breakpoints={{
+                                450 : {
+                                    slidesPerView : 2.5
+                                },
+                                640: {
+                                    slidesPerView: 3
+                                },
+                                768: {
+                                    slidesPerView: 3.5,
+                                },
+                                1000 : {
+                                    slidesPerView : 5
+                                },
+                                1200: {
+                                    slidesPerView: 6.5,
+                                }
+                            }}
+                        >
+                            <SwiperSlide>
+                                <div className={'px-5'}>
+                                    <img className={'w-100 mb-2'} src={image[0]} alt=""/>
+                                    <img className={'w-100 mb-2'} src={image[1]} alt=""/>
+                                    <p className={'text-center m-0 text-white'}>مشاهده همه</p>
+                                </div>
+                            </SwiperSlide>
+                            {
+                                products.map((product , index)=>{
+                                    return(
+                                        <SwiperSlide key={index}>
+                                            <MiniProducts img={product.img} percent={product.percent} oldPrice={product.oldPrice} newPrice={product.price}/>
+                                        </SwiperSlide>
+                                    )
+                                })
+                            }
+                        </Swiper>
+                    </div>
+            }
+
         </Container>
     )
 }

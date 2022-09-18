@@ -25,8 +25,8 @@ const MarketOff = ()=>{
                         let mobile = false ;
                         if (index > 2) mobile=true ;
                         return(
-                            <Col className={'p-0 ' + (mobile ? 'd-none d-lg-block' : '')} xs={3} lg={1}>
-                                <ImgWithPercent key={index} img={item.img} percent={item.percent}/>
+                            <Col key={index} className={'p-0 ' + (mobile ? 'd-none d-lg-block' : '')} xs={3} lg={1}>
+                                <ImgWithPercent img={item.img} percent={item.percent}/>
                             </Col>
                         )
                     })

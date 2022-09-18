@@ -22,10 +22,10 @@ const Slider = ()=>{
     return(
         <Container className={'p-0 position-relative d-flex justify-content-center slider-container'} fluid>
             {
-                loading ? <img className={'p-5'} src={'./img/loading.gif'} alt=""/> :
+                loading ? <div className={'loading-container'}></div> :
                     <>
-                        <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/next.svg'} alt=""/></div>
-                        <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
+                        <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'}src={'./svg/next.svg'} alt=""/></div>
+                        <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'}src={'./svg/prev.svg'} alt=""/></div>
                         <Swiper
                             slidesPerView={1}
                             pagination={true}
@@ -44,12 +44,14 @@ const Slider = ()=>{
                         >
                             {
                                 sliderItems.map((pics, index) => {
-                                    return <SwiperSlide key={index}><img className={"w-100"} src={pics.img} alt=""/></SwiperSlide>
+                                    return <SwiperSlide key={index}><img className={"w-100"} src={pics.img}
+                                                                         alt=""/></SwiperSlide>
                                 })
                             }
                         </Swiper>
                     </>
             }
+
 
         </Container>
     )
