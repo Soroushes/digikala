@@ -6,10 +6,10 @@ import HeaderItem from "../base/headerItem";
 import {Affix} from 'antd' ;
 import {useState} from "react";
 const Header = ()=>{
-    const [top , setTop] = useState(0) ;
+    const [top , setTop] = useState(1) ;
     return(
-            <Affix style={{zIndex : 9999 , position : "relative"}} offsetTop={top}>
-                <div>
+            <Affix offsetTop={top}>
+                <div style={{marginTop : -top}}>
                 <Ads>ads</Ads>
                 <Container className={"shadow-sm bg-white pt-3"} fluid>
                     <Container fluid={'xl'}>
@@ -35,7 +35,6 @@ const Header = ()=>{
                 </Container>
                 </div>
             </Affix>
-
     );
 }
 export default Header ;
