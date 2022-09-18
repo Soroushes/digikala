@@ -2,18 +2,22 @@ import {Col, Container, Row} from "reactstrap";
 import ImgWithPercent from "../base/imgWithPercent";
 import {useEffect, useState} from "react";
 import getData from "../queries/getData";
+import {Skeleton} from "antd";
 
 import MarketButton from "../base/MarketButton";
 
 const MarketOff = ()=>{
-    const [market , setMarket] = useState([]) ;
+    const [loading , setLoading] = useState(true) ;
+    const [market , setMarket] = useState(Array(6).fill(<Skeleton.Avatar active size={50}/>)) ;
     useEffect(()=>{
         getItem() ;
     },[])
     const getItem = async ()=>{
         const result = await getData('market') ;
-        console.log(result);
-        if (result) setMarket(result) ;
+        if (result) {
+            setMarket(result) ;
+            setLoading(false) ;
+        }
     }
     return(
         <Container>
@@ -26,7 +30,10 @@ const MarketOff = ()=>{
                         if (index > 2) mobile=true ;
                         return(
                             <Col key={index} className={'p-0 ' + (mobile ? 'd-none d-lg-block' : '')} xs={3} lg={1}>
-                                <ImgWithPercent img={item.img} percent={item.percent}/>
+                                {
+                                    loading ? <div className={'text-center'}>{item}</div> :
+                                        <ImgWithPercent img={item.img} percent={item.percent}/>
+                                }
                             </Col>
                         )
                     })

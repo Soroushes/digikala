@@ -3,11 +3,12 @@ import CircleImg from "../base/circleImg";
 import {useEffect, useState} from "react";
 import getData from "../queries/getData";
 import {Skeleton} from 'antd' ;
+const images = Array(8).fill(<><Skeleton.Avatar className={'my-2'} active size={50}/><Skeleton.Input active size={20}/></>)
 const RowOfPics = ()=>{
     useEffect(()=>{
         getRowPictures() ;
     },[]) ;
-    const [rowPictures , setRowPictures] = useState([1,2,3,4,5,6,7,8]) ;
+    const [rowPictures , setRowPictures] = useState(images) ;
     const [loading , setLoading] = useState(true) ;
     const getRowPictures = async ()=>{
         const result = await getData('rowpics') ;
@@ -24,7 +25,7 @@ const RowOfPics = ()=>{
                         return(
                             <Col key={index} xs={3} lg={1}>
                                 {
-                                    loading ? <Skeleton.Avatar active className={'m-4'} size={80}/> :
+                                    loading ? <div className={'text-center my-2 w-100 overflow-hidden'}>{item}</div> :
                                         <CircleImg img={item.img} title={item.title}/>
                                 }
 
