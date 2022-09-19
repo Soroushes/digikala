@@ -47,13 +47,13 @@ const MiniProductsRow = ()=>{
                                     slidesPerView: 3
                                 },
                                 768: {
-                                    slidesPerView: 3.5,
+                                    slidesPerView: 3.5
                                 },
                                 1000 : {
                                     slidesPerView : 5
                                 },
                                 1200: {
-                                    slidesPerView: 6.5,
+                                    slidesPerView: 6.5
                                 }
                             }}
                         >

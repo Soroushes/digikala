@@ -1,7 +1,8 @@
 import {Swiper, SwiperSlide} from "swiper/react";
-import {Container, Row} from "reactstrap";
-import {FreeMode, Grid} from "swiper";
+import {Container} from "reactstrap";
+import {FreeMode, Grid , Navigation} from "swiper";
 import "swiper/css/bundle" ;
+import "swiper/css/grid" ;
 import RoundedImg from "../base/roundedImg";
 import {useEffect, useState} from "react";
 import getData from "../queries/getData";
@@ -25,15 +26,36 @@ const SuggestionSlider = ()=>{
         <>
             <Container>
                 <h2 style={{fontSize : 23}} className={'text-center my-4'}>پیشنهاد دیجیکالا</h2>
-                <div className={'border rounded-3 mb-5'} style={{minHeight : 200}}>
+                <div className={'border rounded-3 mb-5'} style={{minHeightheight : 200}}>
                     <Swiper
-                        slidesPerView={6.5}
+                        slidesPerView={2.5}
                         freeMode={true}
                         grid={{
                             rows : 2 ,
                             fill : "row"
                         }}
-                        modules={[FreeMode , Grid]}
+                        navigation={true}
+                        breakpoints={{
+                            450 : {
+                                slidesPerView : 3.2
+                            },
+                            640: {
+                                slidesPerView: 3.7
+                            },
+                            768: {
+                                slidesPerView: 4.2
+                            },
+                            1000 : {
+                                slidesPerView : 5
+                            },
+                            1200: {
+                                slidesPerView: 5.5
+                            },
+                            1400 : {
+                                slidesPerView : 6.5
+                            }
+                        }}
+                        modules={[Navigation,FreeMode , Grid]}
                         className="mySwiper"
                     >
                         {

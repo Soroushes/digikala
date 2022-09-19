@@ -544,5 +544,42 @@
       "img": "https://dkstatics-public.digikala.com/digikala-products/5405b8a453ea99a3e4f79ecd9295751bf9f5dc43_1644853766.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
       "title": "قاب گوشی"
     }
+  ] ,
+  "brands" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    } ,
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    } ,
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    } ,
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    } ,
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    } ,
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    } ,
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    }
+  ],
+  "underbrands" : [
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/d337aa7027bd4f136361bd9e988052f1ef4bdbc5_1663161074.jpg?x-oss-process=image/quality,q_95"
+    } ,
+    {
+      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/f6e4a2af4a070ff783e481c013fc369f60218d13_1663162575.gif?x-oss-process=image"
+    }
   ]
 }
