@@ -581,5 +581,42 @@
     {
       "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/f6e4a2af4a070ff783e481c013fc369f60218d13_1663162575.gif?x-oss-process=image"
     }
+  ] ,
+  "fourpics1" : [
+    {
+      "img" : [
+        "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "title" : "گوشی موبایل"
+    },
+    {
+      "img" : [
+        "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "title" : "گوشی موبایل"
+    },
+    {
+      "img" : [
+        "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "title" : "گوشی موبایل"
+    },    {
+      "img" : [
+        "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
+      ],
+      "title" : "گوشی موبایل"
+    }
   ]
 }

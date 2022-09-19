@@ -6,6 +6,7 @@ import ProductImg from "../containers/productImg";
 import SuggestionSlider from "../containers/suggestionSlider";
 import "swiper/css/bundle";
 import BrandSlider from "../containers/BrandSlider";
+import FourPicsRow from "../containers/fourPicsRow";
 const Home = ()=>{
     return(
         <>
@@ -20,7 +21,7 @@ const Home = ()=>{
             <SuggestionSlider/>
             <BrandSlider/>
             <ProductImg xs={12} lg={6} route={'underbrands'}/>
-
+            <FourPicsRow route={'fourpics1'}/>
         </>
     )
 }
