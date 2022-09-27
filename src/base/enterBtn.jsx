@@ -12,8 +12,9 @@ const EnterBtn = ({children,classname})=>{
                     <p className={'m-0 me-1'}>{children}</p>
                 </div>
                 <div className={'cart-div w-25 d-none d-lg-flex justify-content-center align-items-center position-relative'}>
-                    <ShoppingCartOutlined className={'cart p-2 rounded-2'} style={{fontSize : 25}}/>
-                    <Badge count={cartItems.length} />
+                    <Badge count={cartItems.length}>
+                        <ShoppingCartOutlined className={'cart p-2 rounded-2'} style={{fontSize : 25}}/>
+                    </Badge>
                     <CartBox/>
                 </div>
             </div>

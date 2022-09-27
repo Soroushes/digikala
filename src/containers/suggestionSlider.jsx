@@ -4,24 +4,7 @@ import {FreeMode, Grid , Navigation} from "swiper";
 import "swiper/css/bundle" ;
 import "swiper/css/grid" ;
 import RoundedImg from "../base/roundedImg";
-import {useEffect, useState} from "react";
-import getData from "../queries/getData";
-import {Skeleton} from "antd";
-
-const SuggestionSlider = ()=>{
-    const images = Array(20).fill(<><Skeleton.Avatar className={'my-2'} active size={70}/><Skeleton.Input block active size={'small'}/></>)
-    const [items , setItems] = useState(images) ;
-    const [loading , setLoading] = useState(true);
-    useEffect(()=>{
-        getItems() ;
-    },[]) ;
-    const getItems =async ()=>{
-        const result = await getData('suggestionslider') ;
-        if (result){
-            setItems(result) ;
-            setLoading(false)
-        }
-    }
+const SuggestionSlider = ({items ,loading})=>{
     return(
         <>
             <Container>
@@ -59,12 +42,12 @@ const SuggestionSlider = ()=>{
                         className="mySwiper"
                     >
                         {
-                            items.map((item , index)=>{
+                            items.map((item)=>{
                                 return(
-                                    <SwiperSlide key={index}>
+                                    <SwiperSlide key={item.id}>
                                         {
                                             loading ? <div className={'text-center overflow-hidden p-3'}>{item}</div> :
-                                                <RoundedImg img={item.img} title={item.title}/>
+                                                <RoundedImg img={item.top_product_image} title={item.title_fa}/>
                                         }
                                     </SwiperSlide>
                                 )

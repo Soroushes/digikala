@@ -25,7 +25,7 @@ const MiniProductsRow = ({products , loading})=>{
                             modules={[FreeMode]}
                             breakpoints={{
                                 450 : {
-                                    slidesPerView : 2.5
+                                    slidesPerView : 3.2
                                 },
                                 640: {
                                     slidesPerView: 3.5
@@ -34,7 +34,7 @@ const MiniProductsRow = ({products , loading})=>{
                                     slidesPerView: 4.5
                                 },
                                 1000 : {
-                                    slidesPerView : 6
+                                    slidesPerView : 6.5
                                 },
                                 1200: {
                                     slidesPerView: 7.5

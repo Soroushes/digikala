@@ -12,8 +12,8 @@ const Slider = ({header_banners , loading})=>{
             {
                 loading ? <div className={'loading-container'}></div> :
                     <>
-                        <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'}src={'./svg/next.svg'} alt=""/></div>
-                        <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'}src={'./svg/prev.svg'} alt=""/></div>
+                        <div className={'prev-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/next.svg'} alt=""/></div>
+                        <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
                         <Swiper
                             slidesPerView={1}
                             pagination={true}

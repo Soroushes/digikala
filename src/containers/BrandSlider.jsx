@@ -1,24 +1,8 @@
 import {Container} from "reactstrap";
-import {useEffect, useState} from "react";
-import getData from "../queries/getData";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {FreeMode} from "swiper";
 import "swiper/css/bundle" ;
-import {Skeleton} from "antd";
-const BrandSlider = ()=>{
-    const images = Array(10).fill(<><Skeleton.Avatar className={'my-2'} active size={80}/></>)
-    const [brands , setBrands] = useState(images) ;
-    const [loading , setLoading] = useState(true) ;
-    useEffect(()=>{
-        getItems() ;
-    },[])
-    const getItems = async ()=>{
-        const result = await getData('brands') ;
-        if (result){
-            setBrands(result);
-            setLoading(false)
-        }
-    }
+const BrandSlider = ({brands , loading})=>{
     return(
         <Container>
             <div className={'p-4 border rounded-3 mb-4'}>
@@ -46,12 +30,12 @@ const BrandSlider = ()=>{
                     }}
                 >
                     {
-                        brands.map((brand , index)=>{
+                        brands.map((brand)=>{
                             return(
-                                <SwiperSlide key={index}>
-                                    <div className={'border-end ms-2 px-md-4 px-2 overflow-hidden text-center brands'}>
+                                <SwiperSlide key={brand.id}>
+                                    <div className={'border-end ms-2 px-md-4 px-2 overflow-hidden brands'}>
                                         {
-                                            loading ? brand : <img className={'w-100'} src={brand.img} alt=""/>
+                                            loading ? brand : <img className={'w-100'} src={brand.logo.url[0]} alt={brand.title_fa}/>
                                         }
                                     </div>
                                 </SwiperSlide>

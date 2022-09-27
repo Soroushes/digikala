@@ -7,7 +7,7 @@ const RoundedImg = ({title , img})=>{
                     <img className={'w-100'} src={img} alt={title}/>
                 </div>
             </div>
-            <p className={'text-center m-0 mt-2'}>{title}</p>
+            <p style={{whiteSpace : "nowrap" , textOverflow : "ellipsis"}} className={'text-center overflow-hidden m-0 mt-2'}>{title}</p>
         </div>
 )
 }
