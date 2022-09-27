@@ -27,7 +27,7 @@ const Header = ()=>{
                             </Col>
                         </Row>
                         <Row className={'mt-3'}>
-                            <Col md={9}>
+                            <Col md={6}>
                                 <HeaderItem/>
                             </Col>
                         </Row>

@@ -2,14 +2,12 @@ import axios from "axios";
 const searchAjax = async (val)=>{
     try {
         let {data} = await axios({
-            url : "http://localhost:3000/search" ,
+            url : "https://api.digikala.com/v1/autocomplete/?q="+val ,
             method : "GET"
         });
-        return data.filter((element) => {
-            if (element.title.toLowerCase().indexOf(val.toLowerCase()) !== -1) return true;
-        }) ;
+    return data.data ;
     }catch (err){
-        return false ;
+        return [] ;
     }
 }
 export default searchAjax ;

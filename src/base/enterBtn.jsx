@@ -1,16 +1,22 @@
 import {EnterOutlined, ShoppingCartOutlined} from "@ant-design/icons";
+import {useSelector} from "react-redux";
+import {Badge} from "antd";
+import CartBox from "./CartBox";
 
 const EnterBtn = ({children,classname})=>{
+    const cartItems = useSelector(state => state.cart) ;
     return(
-        <div className={'d-none d-lg-flex'}>
-            <div className={'w-75 d-flex justify-content-center px-3 py-2 rounded-2 bg-white border'}>
-                <EnterOutlined style={{fontSize : 20}} />
-                <p className={'m-0 me-1'}>{children}</p>
+            <div className={'d-none d-lg-flex justify-content-between'}>
+                <div className={'w-50 d-flex justify-content-center px-3 py-2 rounded-2 bg-white border'}>
+                    <EnterOutlined style={{fontSize : 20}} />
+                    <p className={'m-0 me-1'}>{children}</p>
+                </div>
+                <div className={'cart-div w-25 d-none d-lg-flex justify-content-center align-items-center position-relative'}>
+                    <ShoppingCartOutlined className={'cart p-2 rounded-2'} style={{fontSize : 25}}/>
+                    <Badge count={cartItems.length} />
+                    <CartBox/>
+                </div>
             </div>
-            <div className={'w-25 d-none d-lg-flex justify-content-center align-items-center'}>
-                <ShoppingCartOutlined className={'pe-3'} style={{fontSize : 30 , borderRight : "2px solid #eee" , color : "#666"}}/>
-            </div>
-        </div>
     )
 }
 export default EnterBtn ;

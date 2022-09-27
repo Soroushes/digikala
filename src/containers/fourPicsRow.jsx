@@ -20,11 +20,11 @@ const FourPicsRow = ({route})=>{
     }
     return(
         <Container>
-            <Row className={'mt-4 border rounded-3'}>
+            <Row className={'mt-4 border rounded-4'}>
                 {
                     items.map((item , index)=>{
                         return(
-                            <Col className={'border-end'} key={index} xs={12} lg={3}>
+                            <Col className={'border-end four-pic'} key={index} xs={12} lg={3}>
                                 <FourPic title={item.title} img={item.img}/>
                             </Col>
                         )

@@ -24,15 +24,32 @@ const BrandSlider = ()=>{
             <div className={'p-4 border rounded-3 mb-4'}>
                 <h2 style={{fontSize : 21}} className={'text-center mb-4'}>محبوب ترین برندها</h2>
                 <Swiper
-                    slidesPerView={8}
+                    slidesPerView={3}
                     freeMode={true}
                     modules={[FreeMode]}
+                    breakpoints={{
+                        450 : {
+                            slidesPerView : 3.5
+                        },
+                        640: {
+                            slidesPerView: 4.5
+                        },
+                        768: {
+                            slidesPerView: 5.5
+                        },
+                        1000 : {
+                            slidesPerView : 6
+                        },
+                        1200: {
+                            slidesPerView: 7.5
+                        }
+                    }}
                 >
                     {
                         brands.map((brand , index)=>{
                             return(
                                 <SwiperSlide key={index}>
-                                    <div className={'border-end ms-2 px-4 overflow-hidden text-center'}>
+                                    <div className={'border-end ms-2 px-md-4 px-2 overflow-hidden text-center brands'}>
                                         {
                                             loading ? brand : <img className={'w-100'} src={brand.img} alt=""/>
                                         }

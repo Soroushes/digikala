@@ -1,5 +1,4 @@
-import {Col, Input, Row, Spinner} from "reactstrap";
-import {useEffect, useState} from "react";
+import {useState} from "react";
 import searchAjax from "../queries/searchAjax";
 import SearchBox from "./searchBox";
 let searchTime = null ;
@@ -15,8 +14,9 @@ const Search = ()=>{
             if(e.target.value.length>=3){
                 setLoading(true) ;
                 let result = await searchAjax(e.target.value) ;
-                setLoading(false)
-                result  ? setSearchRes(result) : setSearchRes([]) ;
+                setLoading(false) ;
+                console.log(result)
+                setSearchRes(result) ;
             }
             else if(e.target.value.length <3){
                 setSearchRes([]) ;
@@ -24,10 +24,10 @@ const Search = ()=>{
             }
         },1000) ;
     };
-    const clickedValue = (id)=>{
-        const result = searchRes.filter(product => product.id===id) ;
-        change({target : {value : result[0].title}}) ;
-    }
+    // const clickedValue = (id)=>{
+    //     const result = searchRes.searchRes.suggestion_products.filter(product => product.id===id) ;
+    //     change({target : {value : result[0].title}}) ;
+    // }
     const blur = (e)=>{
         if (!e.target.getAttribute('data-click')) setOnInput(false);
     }
@@ -36,8 +36,8 @@ const Search = ()=>{
     return(
         <>
             <div data-click={'click'} className={'w-100 position-absolute search-bar shadow-sm'} style={{overflowY : onInput ? "scroll" : "" , backgroundColor : onInput ? "" : "#eee" }}>
-                <input data-click={'click'} className={"search-input"} placeholder={'جستجو'} onClick={focus} onChange={change} style={{borderBottom : onInput ? "1px solid #4ccddd" : ""}} value={value} type="text"/>
-                <SearchBox data-click={'click'} click={clickedValue} loading={loading} onInput={onInput} searchRes={searchRes}></SearchBox>
+                <input data-click={'click'} className={"search-input py-1"} placeholder={'جستجو'} onClick={focus} onChange={change} style={{borderBottom : onInput ? "1px solid #4ccddd" : ""}} value={value} type="text"/>
+                <SearchBox data-click={'click'} loading={loading} onInput={onInput} searchRes={searchRes}></SearchBox>
             </div>
         </>
     )

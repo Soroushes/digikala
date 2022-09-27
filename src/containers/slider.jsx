@@ -6,19 +6,7 @@ import "swiper/css/navigation";
 import 'swiper/css';
 import {useEffect, useState} from "react";
 import getData from "../queries/getData";
-const Slider = ()=>{
-    useEffect(()=>{
-        getItems() ;
-    },[]) ;
-    const [loading ,setLoading] = useState(true)
-    const [sliderItems , setSliderItems] = useState([]) ;
-    const getItems = async ()=>{
-        const result = await getData('slider') ;
-        if (result){
-            setSliderItems(result) ;
-            setLoading(false) ;
-        }
-    }
+const Slider = ({header_banners , loading})=>{
     return(
         <Container className={'p-0 position-relative d-flex justify-content-center slider-container'} fluid>
             {
@@ -35,7 +23,7 @@ const Slider = ()=>{
                                 prevEl: '.prev-btn',
                             }}
                             autoplay={{
-                                delay: 4000,
+                                delay: 2000,
                                 disableOnInteraction: false,
                             }}
                             modules={[Pagination, Autoplay, Navigation]}
@@ -43,9 +31,8 @@ const Slider = ()=>{
                             className="mySwiper"
                         >
                             {
-                                sliderItems.map((pics, index) => {
-                                    return <SwiperSlide key={index}><img className={"w-100"} src={pics.img}
-                                                                         alt=""/></SwiperSlide>
+                                header_banners.map((element) => {
+                                    return <SwiperSlide key={element.id}><img className={"w-100"} src={element.image}alt={element.title}/></SwiperSlide>
                                 })
                             }
                         </Swiper>

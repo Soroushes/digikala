@@ -5,26 +5,10 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import {FreeMode} from "swiper";
-import {useEffect, useState} from "react";
-import getData from "../queries/getData";
+import priceDivider from "../helpers/priceDivider";
 
 
-const MiniProductsRow = ()=>{
-    const [loading , setLoading] = useState(true) ;
-    const [products , setProducts] = useState([]) ;
-    const [image , setImages] = useState([]) ;
-    useEffect(()=>{
-        getItems() ;
-    },[])
-    const getItems = async ()=> {
-        const result = await getData('miniproducts');
-        const images = await getData("miniproductsimg") ;
-        if (result) {
-            setProducts(result);
-            setLoading(false);
-        }
-        if (images)setImages(images)
-    }
+const MiniProductsRow = ({products , loading})=>{
     return(
         <Container>
             {
@@ -44,31 +28,34 @@ const MiniProductsRow = ()=>{
                                     slidesPerView : 2.5
                                 },
                                 640: {
-                                    slidesPerView: 3
-                                },
-                                768: {
                                     slidesPerView: 3.5
                                 },
+                                768: {
+                                    slidesPerView: 4.5
+                                },
                                 1000 : {
-                                    slidesPerView : 5
+                                    slidesPerView : 6
                                 },
                                 1200: {
-                                    slidesPerView: 6.5
+                                    slidesPerView: 7.5
                                 }
                             }}
                         >
-                            <SwiperSlide>
-                                <div className={'px-5'}>
-                                    <img className={'w-100 mb-2'} src={image[0]} alt=""/>
-                                    <img className={'w-100 mb-2'} src={image[1]} alt=""/>
+                            <SwiperSlide className={'h-100 px-5'}>
+                                    <img className={'mt-2 w-100'} src={"https://www.digikala.com/statics/img/svg/amazing-typo.svg"} alt=""/>
+                                    <img className={'mt-2 w-100'} src={"https://www.digikala.com/statics/img/png/specialCarousel/box.png"} alt=""/>
                                     <p className={'text-center m-0 text-white'}>مشاهده همه</p>
-                                </div>
                             </SwiperSlide>
                             {
-                                products.map((product , index)=>{
+                                products.map((product)=>{
                                     return(
-                                        <SwiperSlide key={index}>
-                                            <MiniProducts img={product.img} percent={product.percent} oldPrice={product.oldPrice} newPrice={product.price}/>
+                                        <SwiperSlide key={product.id}>
+                                            <MiniProducts
+                                                img={product.images.main.url[0]}
+                                                percent={product.default_variant.price.discount_percent}
+                                                oldPrice={priceDivider((product.default_variant.price.rrp_price)/10)}
+                                                newPrice={priceDivider((product.default_variant.price.selling_price)/10)}
+                                            />
                                         </SwiperSlide>
                                     )
                                 })

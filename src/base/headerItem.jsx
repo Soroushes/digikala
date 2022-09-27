@@ -21,7 +21,7 @@ const HeaderItem = ()=>{
     return(
         <ul className={"header-items overflow-hidden d-none d-md-flex"}>
             {
-                items.map((element, index)=><li key={index}>{element}</li>)
+                items.map((element, index)=><li style={{fontSize : 11}} key={index}>{element}</li>)
             }
         </ul>
     )
