@@ -21,7 +21,7 @@ const MiniProductsRow = ({products , loading})=>{
                             freeMode={true}
                             spaceBetween={2}
                             className="mySwiper"
-                            slidesPerView={1.8}
+                            slidesPerView={2}
                             modules={[FreeMode]}
                             breakpoints={{
                                 450 : {
