@@ -28,6 +28,7 @@ const BrandSlider = ({brands , loading})=>{
                             slidesPerView: 7.5
                         }
                     }}
+                    className= "mySwiper"
                 >
                     {
                         brands.map((brand)=>{

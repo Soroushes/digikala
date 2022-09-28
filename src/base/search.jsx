@@ -15,7 +15,6 @@ const Search = ()=>{
                 setLoading(true) ;
                 let result = await searchAjax(e.target.value) ;
                 setLoading(false) ;
-                console.log(result)
                 setSearchRes(result) ;
             }
             else if(e.target.value.length <3){

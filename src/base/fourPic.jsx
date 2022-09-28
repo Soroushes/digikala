@@ -1,4 +1,4 @@
-import {Col, Container, Row} from "reactstrap";
+import {Col, Row} from "reactstrap";
 
 const FourPic = ({title ,img})=>{
     return(

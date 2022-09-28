@@ -35,7 +35,7 @@ const SuggestionSlider = ({items ,loading})=>{
                                 slidesPerView: 5.5
                             },
                             1400 : {
-                                slidesPerView : 6.5
+                                slidesPerView : 6.9
                             }
                         }}
                         modules={[Navigation,FreeMode , Grid]}

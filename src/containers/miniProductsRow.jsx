@@ -55,6 +55,7 @@ const MiniProductsRow = ({products , loading})=>{
                                                 percent={product.default_variant.price.discount_percent}
                                                 oldPrice={priceDivider((product.default_variant.price.rrp_price)/10)}
                                                 newPrice={priceDivider((product.default_variant.price.selling_price)/10)}
+                                                cart={product.id}
                                             />
                                         </SwiperSlide>
                                     )

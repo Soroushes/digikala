@@ -18,6 +18,9 @@ body {
     border: 0px;
     background-color: transparent;
 }
+.swiper-wrapper{
+    align-items: center;
+}
 .search-input:focus{
     outline: none;
 }

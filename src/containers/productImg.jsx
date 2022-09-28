@@ -1,30 +1,15 @@
 import {Col, Container, Row} from "reactstrap";
-import {useEffect, useState} from "react";
-import getData from "../queries/getData";
-
-const ProductImg = ({xs , lg , route})=>{
-    const [products , setProducts] = useState(Array(4).fill(<div style={{backgroundColor : '#f2f2f2' , height : 200}} className={'w-100 rounded-3'}></div>)) ;
-    const [loading , setLoading] = useState(true) ;
-    useEffect(()=>{
-        getItem() ;
-    },[]) ;
-    const getItem = async ()=>{
-        const result = await getData(route) ;
-        if (result){
-            setProducts(result);
-            setLoading(false)
-        }
-    }
+const ProductImg = ({xs , lg , loading , products})=>{
     return(
         <Container>
             <Row className={'p-0'}>
                 {
-                    products.map((product,index)=>{
+                    products.map((product)=>{
                         return(
-                            <Col className={'my-3'} key={index} xs={xs} lg={lg}>
+                            <Col className={'my-3'} key={product.id} xs={xs} lg={lg}>
                                 {
                                     loading ? product :
-                                        <img className={'w-100 rounded-3'} src={product.img} alt=""/>
+                                        <img className={'w-100 rounded-3'} src={product.image} alt={product.title}/>
                                 }
 
                             </Col>
