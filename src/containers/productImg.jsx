@@ -4,9 +4,9 @@ const ProductImg = ({xs , lg , loading , products})=>{
         <Container>
             <Row className={'p-0'}>
                 {
-                    products.map((product)=>{
+                    products.map((product , index)=>{
                         return(
-                            <Col className={'my-3'} key={product.id} xs={xs} lg={lg}>
+                            <Col className={'my-3'} key={product.id || index} xs={xs} lg={lg}>
                                 {
                                     loading ? product :
                                         <img className={'w-100 rounded-3'} src={product.image} alt={product.title}/>

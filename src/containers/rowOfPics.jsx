@@ -12,7 +12,7 @@ const RowOfPics = ({lg , xs ,categories , font , center , loading , image , titl
                         let show = true ;
                         if (index>max) show=false ;
                         return(
-                            <Col className={!show ? 'd-none' : ""} key={item.id} xs={xs} lg={lg}>
+                            <Col className={!show ? 'd-none' : ""} key={item.id || index} xs={xs} lg={lg}>
                                 {
                                     loading ? <div className={'text-center my-2 w-100 overflow-hidden'}>{item}</div> :
                                         <CircleImg font={font} img={item[image].url[0]} title={item[title]}/>

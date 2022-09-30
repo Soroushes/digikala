@@ -42,9 +42,9 @@ const SuggestionSlider = ({items ,loading})=>{
                         className="mySwiper"
                     >
                         {
-                            items.map((item)=>{
+                            items.map((item , index)=>{
                                 return(
-                                    <SwiperSlide key={item.id}>
+                                    <SwiperSlide key={item.id || index}>
                                         {
                                             loading ? <div className={'text-center overflow-hidden p-3'}>{item}</div> :
                                                 <RoundedImg img={item.top_product_image} title={item.title_fa}/>

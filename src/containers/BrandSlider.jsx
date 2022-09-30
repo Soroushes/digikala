@@ -31,9 +31,9 @@ const BrandSlider = ({brands , loading})=>{
                     className= "mySwiper"
                 >
                     {
-                        brands.map((brand)=>{
+                        brands.map((brand , index)=>{
                             return(
-                                <SwiperSlide key={brand.id}>
+                                <SwiperSlide key={brand.id || index}>
                                     <div className={'border-end ms-2 px-md-4 px-2 overflow-hidden brands'}>
                                         {
                                             loading ? brand : <img className={'w-100'} src={brand.logo.url[0]} alt={brand.title_fa}/>
