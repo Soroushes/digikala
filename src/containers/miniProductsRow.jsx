@@ -6,11 +6,12 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import {FreeMode} from "swiper";
 import priceDivider from "../helpers/priceDivider";
-
-
-const MiniProductsRow = ({products , loading})=>{
+import {useSelector} from "react-redux";
+import {Link} from "react-router-dom";
+const MiniProductsRow = ()=>{
+    const {incredible_products, loading} = useSelector(state => state.home) ;
     return(
-        <Container>
+        <Container className={'mt-2'}>
             {
                 loading ? <div className={'loading-container'}></div> :
                     <div className={'products-row'}>
@@ -18,6 +19,8 @@ const MiniProductsRow = ({products , loading})=>{
                         <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
 
                         <Swiper
+                            observer={true}
+                            observeParents={true}
                             freeMode={true}
                             spaceBetween={2}
                             className="mySwiper"
@@ -47,16 +50,18 @@ const MiniProductsRow = ({products , loading})=>{
                                     <p className={'text-center m-0 text-white'}>مشاهده همه</p>
                             </SwiperSlide>
                             {
-                                products.map((product)=>{
+                                incredible_products.products.map((product)=>{
                                     return(
                                         <SwiperSlide key={product.id}>
-                                            <MiniProducts
-                                                img={product.images.main.url[0]}
-                                                percent={product.default_variant.price.discount_percent}
-                                                oldPrice={priceDivider((product.default_variant.price.rrp_price)/10)}
-                                                newPrice={priceDivider((product.default_variant.price.selling_price)/10)}
-                                                cart={product.id}
-                                            />
+                                            <Link to={'/product/'+product.id}>
+                                                <MiniProducts
+                                                    img={product.images.main.url[0]}
+                                                    percent={product.default_variant.price.discount_percent}
+                                                    oldPrice={priceDivider((product.default_variant.price.rrp_price)/10)}
+                                                    newPrice={priceDivider((product.default_variant.price.selling_price)/10)}
+                                                    cart={product.id}
+                                                />
+                                            </Link>
                                         </SwiperSlide>
                                     )
                                 })

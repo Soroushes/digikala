@@ -1,12 +1,12 @@
-import {Button, Container} from "reactstrap";
+import {Container} from "reactstrap";
+import {useSelector} from "react-redux";
 import { Swiper, SwiperSlide} from "swiper/react";
-import swiper, {Autoplay, Navigation, Pagination} from "swiper";
+import {Autoplay, Navigation, Pagination} from "swiper";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import 'swiper/css';
-import {useEffect, useState} from "react";
-import getData from "../queries/getData";
-const Slider = ({header_banners , loading})=>{
+const Slider = ()=>{
+    const {header_banners , loading} = useSelector(state => state.home) ;
     return(
         <Container className={'p-0 position-relative d-flex justify-content-center slider-container'} fluid>
             {
@@ -16,6 +16,8 @@ const Slider = ({header_banners , loading})=>{
                         <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
                         <Swiper
                             slidesPerView={1}
+                            observer={true}
+                            observeParents={true}
                             pagination={true}
                             navigation={{
                                 enabled: true,
@@ -32,7 +34,7 @@ const Slider = ({header_banners , loading})=>{
                         >
                             {
                                 header_banners.map((element) => {
-                                    return <SwiperSlide key={element.id}><img className={"w-100"} src={element.image}alt={element.title}/></SwiperSlide>
+                                    return <SwiperSlide key={element.id}><img className={"w-100"} src={element.image}  alt={element.title}/></SwiperSlide>
                                 })
                             }
                         </Swiper>

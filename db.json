@@ -544,79 +544,666 @@
       "img": "https://dkstatics-public.digikala.com/digikala-products/5405b8a453ea99a3e4f79ecd9295751bf9f5dc43_1644853766.jpg?x-oss-process=image/resize,m_lfit,h_350,w_350/quality,q_60",
       "title": "قاب گوشی"
     }
-  ] ,
-  "brands" : [
+  ],
+  "brands": [
     {
-      "img" : "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
-    } ,
-    {
-      "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
-    } ,
-    {
-      "img" : "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
     },
     {
-      "img" : "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
-    } ,
-    {
       "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
-    } ,
-    {
-      "img" : "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
     },
     {
-      "img" : "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
-    } ,
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
     {
       "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
-    } ,
+    },
     {
-      "img" : "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/6091.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/2c36ceb629598fa31b9b321fcd4e47773bd93ef7_1649498016.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
+    },
+    {
+      "img": "https://dkstatics-public.digikala.com/digikala-brands/af664f0bcf9bc412b741c618e6e52fc2d090198f_1619269008.png?x-oss-process=image/resize,m_lfit,h_160,w_160/quality,q_80"
     }
   ],
-  "underbrands" : [
+  "underbrands": [
     {
-      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/d337aa7027bd4f136361bd9e988052f1ef4bdbc5_1663161074.jpg?x-oss-process=image/quality,q_95"
-    } ,
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/d337aa7027bd4f136361bd9e988052f1ef4bdbc5_1663161074.jpg?x-oss-process=image/quality,q_95"
+    },
     {
-      "img" : "https://dkstatics-public.digikala.com/digikala-adservice-banners/f6e4a2af4a070ff783e481c013fc369f60218d13_1663162575.gif?x-oss-process=image"
+      "img": "https://dkstatics-public.digikala.com/digikala-adservice-banners/f6e4a2af4a070ff783e481c013fc369f60218d13_1663162575.gif?x-oss-process=image"
     }
-  ] ,
-  "fourpics1" : [
+  ],
+  "fourpics1": [
     {
-      "img" : [
+      "img": [
         "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
-        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
         "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
       ],
-      "title" : "گوشی موبایل"
+      "title": "گوشی موبایل"
     },
     {
-      "img" : [
+      "img": [
         "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
-        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
         "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
       ],
-      "title" : "گوشی موبایل"
+      "title": "گوشی موبایل"
     },
     {
-      "img" : [
+      "img": [
         "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
-        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
         "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
       ],
-      "title" : "گوشی موبایل"
-    },    {
-      "img" : [
+      "title": "گوشی موبایل"
+    },
+    {
+      "img": [
         "https://dkstatics-public.digikala.com/digikala-products/33cc19680d37b40f3030752c36978e0d76ea980b_1656430769.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
-        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
-        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80" ,
+        "https://dkstatics-public.digikala.com/digikala-products/f7695f5537bd17fe62ff59b92cf3574ecfaece4b_1656422164.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
+        "https://dkstatics-public.digikala.com/digikala-products/e477016feaff5a6e6cf930517134eb3888c887ef_1656404674.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80",
         "https://dkstatics-public.digikala.com/digikala-products/fa5961b7d2a4efb180d686f6f69dd45381a4d3dd_1649056488.jpg?x-oss-process=image/resize,m_lfit,h_300,w_300/quality,q_80"
       ],
-      "title" : "گوشی موبایل"
+      "title": "گوشی موبایل"
+    }
+  ],
+  "cart": [
+    {
+      "id": 28025843,
+      "lead_time": 0,
+      "rank": 99.8,
+      "rate": 80,
+      "statistics": {
+        "totally_satisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "satisfied": {
+          "rate_count": 2,
+          "rate": 100
+        },
+        "neutral": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "totally_dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "total_count": 2,
+        "total_rate": 80
+      },
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": false,
+        "is_rural": false,
+        "in_digikala_warehouse": true
+      },
+      "digiplus": {
+        "services": [
+          "ارسال رایگان",
+          "امکان ارسال فوری (شهر تهران)"
+        ],
+        "is_jet_eligible": true,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false
+      },
+      "color": {
+        "id": 3,
+        "title": "قرمز",
+        "hex_code": "#f44336"
+      },
+      "warranty": {
+        "id": 272,
+        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+      },
+      "seller": {
+        "id": 1,
+        "title": "دیجی‌کالا",
+        "code": "5A52N",
+        "url": "https://www.digikala.com/seller/5A52N/",
+        "rating": {
+          "total_rate": 0,
+          "total_count": 0,
+          "commitment": 100,
+          "no_return": 99.9,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": false,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 5,
+        "registration_date": "6 سال و 2 ماه"
+      },
+      "digiclub": {
+        "point": 36
+      },
+      "price": {
+        "selling_price": 3550000,
+        "rrp_price": 5100000,
+        "order_limit": 1,
+        "is_incredible": true,
+        "is_promotion": false,
+        "is_locked_for_digiplus": false,
+        "discount_percent": 30,
+        "timer": 23627,
+        "badge": {
+          "title": "پیشنهاد شگفت انگیز",
+          "color": "#E6123D",
+          "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار دیجی‌کالا",
+        "has_lead_time": true,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا",
+            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": false,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "سرویس تابه دو پارچه دیجی کالا هوم مدل Basic",
+      "link": "/product/7970582",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/7168fb77cea092e63f92494e09deca9a5ef431c0_1646207113.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+    },
+    {
+      "id": 28025751,
+      "lead_time": 0,
+      "rank": 99.6,
+      "rate": 60,
+      "statistics": {
+        "totally_satisfied": {
+          "rate_count": 1,
+          "rate": 20
+        },
+        "satisfied": {
+          "rate_count": 2,
+          "rate": 40
+        },
+        "neutral": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "totally_dissatisfied": {
+          "rate_count": 2,
+          "rate": 40
+        },
+        "total_count": 5,
+        "total_rate": 60
+      },
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": false,
+        "is_rural": false,
+        "in_digikala_warehouse": true
+      },
+      "digiplus": {
+        "services": [
+          "ارسال رایگان",
+          "امکان ارسال فوری (شهر تهران)"
+        ],
+        "is_jet_eligible": true,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false
+      },
+      "color": {
+        "id": 13,
+        "title": "نوک مدادی",
+        "hex_code": "#424242"
+      },
+      "warranty": {
+        "id": 272,
+        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+      },
+      "seller": {
+        "id": 1,
+        "title": "دیجی‌کالا",
+        "code": "5A52N",
+        "url": "https://www.digikala.com/seller/5A52N/",
+        "rating": {
+          "total_rate": 0,
+          "total_count": 0,
+          "commitment": 100,
+          "no_return": 99.9,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": false,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 5,
+        "registration_date": "6 سال و 2 ماه"
+      },
+      "digiclub": {
+        "point": 36
+      },
+      "price": {
+        "selling_price": 3550000,
+        "rrp_price": 5100000,
+        "order_limit": 1,
+        "is_incredible": true,
+        "is_promotion": false,
+        "is_locked_for_digiplus": false,
+        "discount_percent": 30,
+        "timer": 23627,
+        "badge": {
+          "title": "پیشنهاد شگفت انگیز",
+          "color": "#E6123D",
+          "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار دیجی‌کالا",
+        "has_lead_time": true,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا",
+            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": false,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "سرویس تابه دو پارچه دیجی کالا هوم مدل Basic",
+      "link": "/product/7970582",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/7168fb77cea092e63f92494e09deca9a5ef431c0_1646207113.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+    },
+    {
+      "id": 1953218,
+      "lead_time": 1,
+      "rank": 100,
+      "rate": 100,
+      "statistics": {
+        "totally_satisfied": {
+          "rate_count": 1,
+          "rate": 100
+        },
+        "satisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "neutral": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "totally_dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "total_count": 1,
+        "total_rate": 100
+      },
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": false,
+        "is_rural": false,
+        "in_digikala_warehouse": false
+      },
+      "digiplus": {
+        "services": [
+          "ارسال رایگان"
+        ],
+        "is_jet_eligible": false,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false
+      },
+      "size": {
+        "id": 945,
+        "title": "0.36 گرم"
+      },
+      "warranty": {
+        "id": 272,
+        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+      },
+      "seller": {
+        "id": 4438,
+        "title": "مانچو",
+        "code": "5ACR4",
+        "url": "https://www.digikala.com/seller/5ACR4/",
+        "rating": {
+          "total_rate": 77,
+          "total_count": 4558,
+          "commitment": 100,
+          "no_return": 99.4,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": true,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 4.4,
+        "registration_date": "4 سال و 8 ماه"
+      },
+      "digiclub": {
+        "point": 79
+      },
+      "price": {
+        "selling_price": 7839000,
+        "rrp_price": 14530000,
+        "order_limit": 1,
+        "is_incredible": true,
+        "is_promotion": false,
+        "is_locked_for_digiplus": false,
+        "discount_percent": 46,
+        "timer": 23416,
+        "sold_percentage": 31,
+        "badge": {
+          "title": "پیشنهاد شگفت انگیز",
+          "color": "#E6123D",
+          "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار فروشنده",
+        "has_lead_time": false,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا از 1 روز کاری دیگر",
+            "description": "این کالا پس از مدت زمان مشخص شده توسط فروشنده در انبار دیجی‌کالا تامین و آماده پردازش می‌گردد و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": true,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "دستبند طلا 18عیار مردانه مانچو مدل bfg041",
+      "link": "/product/879438",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/4080559.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+    },
+    {
+      "id": 30628171,
+      "lead_time": 0,
+      "rank": 99.2,
+      "rate": 20,
+      "statistics": {
+        "totally_satisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "satisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "neutral": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "totally_dissatisfied": {
+          "rate_count": 1,
+          "rate": 100
+        },
+        "total_count": 1,
+        "total_rate": 20
+      },
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": false,
+        "is_rural": false,
+        "in_digikala_warehouse": true
+      },
+      "digiplus": {
+        "services": [
+          "ارسال رایگان",
+          "امکان ارسال فوری (شهر تهران)"
+        ],
+        "is_jet_eligible": true,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false
+      },
+      "color": {
+        "id": 1,
+        "title": "مشکی",
+        "hex_code": "#212121"
+      },
+      "warranty": {
+        "id": 1879,
+        "title_fa": "گارانتی 18 ماهه چهار فصل اوریکو",
+        "title_en": "گارانتی 18 ماهه چهار فصل اوریکو"
+      },
+      "seller": {
+        "id": 297,
+        "title": "اوریکو",
+        "code": "5A5F7",
+        "url": "https://www.digikala.com/seller/5A5F7/",
+        "rating": {
+          "total_rate": 83,
+          "total_count": 2827,
+          "commitment": 100,
+          "no_return": 99.5,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": false,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 4.4,
+        "registration_date": "5 سال و 4 ماه"
+      },
+      "digiclub": {
+        "point": 29
+      },
+      "price": {
+        "selling_price": 2900000,
+        "rrp_price": 3950000,
+        "order_limit": 1,
+        "is_incredible": true,
+        "is_promotion": false,
+        "is_locked_for_digiplus": false,
+        "discount_percent": 27,
+        "timer": 22575,
+        "badge": {
+          "title": "پیشنهاد شگفت انگیز",
+          "color": "#E6123D",
+          "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار دیجی‌کالا",
+        "has_lead_time": true,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا",
+            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": false,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "ماوس بی سیم اوریکو مدل WDM-V2C",
+      "link": "/product/8617853",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/b19cd22df5c28cf884bced471793a0ee0ba88784_1653730916.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+    },
+    {
+      "id": 16953374,
+      "lead_time": 0,
+      "rank": 99.73,
+      "rate": 72.6,
+      "statistics": {
+        "totally_satisfied": {
+          "rate_count": 2,
+          "rate": 25
+        },
+        "satisfied": {
+          "rate_count": 2,
+          "rate": 25
+        },
+        "neutral": {
+          "rate_count": 3,
+          "rate": 37.5
+        },
+        "dissatisfied": {
+          "rate_count": 1,
+          "rate": 12.5
+        },
+        "totally_dissatisfied": {
+          "rate_count": 0,
+          "rate": 0
+        },
+        "total_count": 8,
+        "total_rate": 72.6
+      },
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": false,
+        "is_rural": false,
+        "in_digikala_warehouse": true
+      },
+      "digiplus": {
+        "services": [
+          "ارسال رایگان",
+          "امکان ارسال فوری (شهر تهران)"
+        ],
+        "is_jet_eligible": true,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false
+      },
+      "warranty": {
+        "id": 3,
+        "title_fa": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا",
+        "title_en": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا"
+      },
+      "seller": {
+        "id": 364401,
+        "title": "کارماستا",
+        "code": "CD6YD",
+        "url": "https://www.digikala.com/seller/CD6YD/",
+        "rating": {
+          "total_rate": 79,
+          "total_count": 16404,
+          "commitment": 100,
+          "no_return": 98.8,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": false,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 3.5,
+        "registration_date": "2 سال و 4 ماه"
+      },
+      "digiclub": {
+        "point": 9
+      },
+      "price": {
+        "selling_price": 850000,
+        "rrp_price": 1200000,
+        "order_limit": 1,
+        "is_incredible": true,
+        "is_promotion": false,
+        "is_locked_for_digiplus": false,
+        "discount_percent": 29,
+        "timer": 21607,
+        "badge": {
+          "title": "پیشنهاد شگفت انگیز",
+          "color": "#E6123D",
+          "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار دیجی‌کالا",
+        "has_lead_time": true,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا",
+            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": false,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "چراغ سیار خودرو  مدل 8400",
+      "link": "/product/3100185",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/7633ac64e2823bdaa006d163c79eead2aeae84ce_1594926782.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
     }
   ]
 }

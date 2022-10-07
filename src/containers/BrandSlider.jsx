@@ -2,13 +2,20 @@ import {Container} from "reactstrap";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {FreeMode} from "swiper";
 import "swiper/css/bundle" ;
-const BrandSlider = ({brands , loading})=>{
+import {Skeleton} from "antd";
+import {useSelector} from "react-redux";
+const wait = Array(10).fill(<Skeleton.Avatar shape={"square"}  active size={80}/>) ;
+const BrandSlider = ()=>{
+    const {popular_brands , loading} = useSelector(state => state.home) ;
+    const brands = popular_brands ? popular_brands.brands : wait ;
     return(
         <Container>
             <div className={'p-4 border rounded-3 mb-4'}>
                 <h2 style={{fontSize : 21}} className={'text-center mb-4'}>محبوب ترین برندها</h2>
                 <Swiper
                     slidesPerView={3}
+                    observer={true}
+                    observeParents={true}
                     freeMode={true}
                     modules={[FreeMode]}
                     breakpoints={{
@@ -31,12 +38,14 @@ const BrandSlider = ({brands , loading})=>{
                     className= "mySwiper"
                 >
                     {
-                        brands.map((brand , index)=>{
+                            brands.map((brand , index)=>{
                             return(
                                 <SwiperSlide key={brand.id || index}>
                                     <div className={'border-end ms-2 px-md-4 px-2 overflow-hidden brands'}>
                                         {
-                                            loading ? brand : <img className={'w-100'} src={brand.logo.url[0]} alt={brand.title_fa}/>
+                                            loading ?
+                                                <div className={'border-end ms-2 px-md-4 px-2 overflow-hidden brands'}>{brand}</div> :
+                                                <img className={'w-100'} src={brand.logo.url[0]} alt={brand.title_fa}/>
                                         }
                                     </div>
                                 </SwiperSlide>

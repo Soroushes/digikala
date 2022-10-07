@@ -13,7 +13,6 @@ const FourPicsRow = ({route})=>{
 
     const getItems = async ()=>{
         const result = await getData(route) ;
-        console.log(result)
         if (result){
             setItems(result) ;
             setLoading(false) ;
@@ -21,7 +20,7 @@ const FourPicsRow = ({route})=>{
     }
     return(
         <Container>
-            <Row className={'mt-4 border rounded-4'}>
+            <Row className={'m-0 my-4 border rounded-4'}>
                 {
                     items.map((item , index)=>{
                         return(

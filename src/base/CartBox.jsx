@@ -1,12 +1,13 @@
 import {Col, Row} from "reactstrap";
 import priceDivider from "../helpers/priceDivider";
 import {useSelector} from "react-redux";
+import {Link} from "react-router-dom";
 
 const CartBox = ()=>{
     const cartItems = useSelector(state => state.cart) ;
     let finalPrice = 0 ;
     cartItems.map((item)=>{
-        return (item.product.default_variant.price.selling_price)/10 ;
+        return (item.price.selling_price)/10 ;
     }).forEach((price)=>{
         finalPrice+=price ;
     })
@@ -17,11 +18,11 @@ const CartBox = ()=>{
                 {
                     cartItems.map((element)=>{
                         return(
-                            <Row className={'mt-4 border-bottom'} key={element.product.id}>
-                                <Col md={5}><img className={'w-100'} src={element.product.images.main.url[0]} alt=""/></Col>
+                            <Row className={'mt-4 border-bottom'} key={element.id}>
+                                <Col md={5}><Link to={element.link}><img className={'w-100'} src={element.image} alt={element.title_fa}/></Link></Col>
                                 <Col md={7}>
-                                    <div>{element.product.title_fa}</div>
-                                    <div className={'mt-3 text-start fw-bold mb-3'}>{priceDivider((element.product.default_variant.price.selling_price)/10)} تومان </div>
+                                    <div>{element.title_fa}</div>
+                                    <div className={'mt-3 text-start fw-bold mb-3'}>{priceDivider((element.price.selling_price)/10)} تومان </div>
                                 </Col>
                             </Row>
                         )

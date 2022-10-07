@@ -4,10 +4,10 @@ const cartSlice = createSlice({
     name : 'cart' ,
     initialState ,
     reducers : {
-        ADD : (state, action)=>{
-            state.push(action.payload) ;
+        CHECK_CART :(state , action)=>{
+            return action.payload ;
         }
     }
 })
 export default cartSlice.reducer ;
-export const {ADD} = cartSlice.actions ;
+export const {CHECK_CART} = cartSlice.actions ;

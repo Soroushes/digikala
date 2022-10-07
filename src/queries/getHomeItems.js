@@ -1,8 +1,8 @@
 import axios from "axios";
 
-const getHomeItems = ()=>{
+const getHomeItems = (url)=>{
     return axios({
-        url : "https://api.digikala.com/v1/" ,
+        url : url ,
         method : "GET"
     })
 }

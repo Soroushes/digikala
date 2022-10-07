@@ -4,13 +4,20 @@ import {FreeMode, Grid , Navigation} from "swiper";
 import "swiper/css/bundle" ;
 import "swiper/css/grid" ;
 import RoundedImg from "../base/roundedImg";
-const SuggestionSlider = ({items ,loading})=>{
+import {useSelector} from "react-redux";
+import {Skeleton} from "antd";
+const wait = Array(16).fill(<><Skeleton.Avatar className={'my-2'} active size={50}/><Skeleton.Input className={'rounded-3'} block active size={20}/></>) ;
+const SuggestionSlider = ()=>{
+    const {recommendation_sub_categories , loading} = useSelector(state => state.home) ;
+    const items = recommendation_sub_categories ? recommendation_sub_categories : wait ;
     return(
         <>
             <Container>
                 <h2 style={{fontSize : 23}} className={'text-center my-4'}>پیشنهاد دیجیکالا</h2>
                 <div className={'border rounded-3 mb-5'} style={{minHeightheight : 200}}>
                     <Swiper
+                        observer={true}
+                        observeParents={true}
                         slidesPerView={2.5}
                         freeMode={true}
                         grid={{
@@ -42,12 +49,13 @@ const SuggestionSlider = ({items ,loading})=>{
                         className="mySwiper"
                     >
                         {
-                            items.map((item , index)=>{
+                            items.map((item , index )=>{
                                 return(
                                     <SwiperSlide key={item.id || index}>
                                         {
-                                            loading ? <div className={'text-center overflow-hidden p-3'}>{item}</div> :
+                                            loading ? <div className={'m-2 text-center overflow-hidden'} key={index}>{item}</div> :
                                                 <RoundedImg img={item.top_product_image} title={item.title_fa}/>
+
                                         }
                                     </SwiperSlide>
                                 )
