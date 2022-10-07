@@ -7,7 +7,7 @@ import SingleProBuy from "../base/singleProBuy";
 const SingleProductHead = ()=>{
     const {title_fa} = useSelector(state => state.singleProduct) ;
     return(
-        <Container fluid={true} style={{padding : '0 130px'}}>
+        <Container className={'self-container'} fluid={true}>
             <Row className={'mb-3'}>
                 <Col xs={12} className={'mt-3 ps-4'} lg={4}>
                     <SingleProImage/>
@@ -15,10 +15,10 @@ const SingleProductHead = ()=>{
                 <Col xs={12} className={'mt-4 pe-4'} lg={8}>
                     <h1 className={'mb-3'} style={{fontSize : 20}}>{title_fa}</h1>
                     <Row>
-                        <Col className={'p-0 ps-lg-2 mb-3'} xs={12} lg={8}>
+                        <Col className={'p-0 ps-lg-2 mb-3'} xs={12} lg={7} xl={8}>
                             <SingleProductInfo/>
                         </Col>
-                        <Col className={'p-0'} xs={12} lg={4}>
+                        <Col className={'p-0'} xs={12} lg={5} xl={4}>
                             <SingleProBuy/>
                         </Col>
                     </Row>

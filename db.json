@@ -622,18 +622,18 @@
   ],
   "cart": [
     {
-      "id": 28025843,
+      "id": 32457304,
       "lead_time": 0,
-      "rank": 99.8,
-      "rate": 80,
+      "rank": 100,
+      "rate": 90,
       "statistics": {
         "totally_satisfied": {
-          "rate_count": 0,
-          "rate": 0
+          "rate_count": 1,
+          "rate": 50
         },
         "satisfied": {
-          "rate_count": 2,
-          "rate": 100
+          "rate_count": 1,
+          "rate": 50
         },
         "neutral": {
           "rate_count": 0,
@@ -648,7 +648,7 @@
           "rate": 0
         },
         "total_count": 2,
-        "total_rate": 80
+        "total_rate": 90
       },
       "status": "marketable",
       "properties": {
@@ -668,10 +668,9 @@
         "cash_back": 0,
         "is_general_location_jet_eligible": false
       },
-      "color": {
-        "id": 3,
-        "title": "قرمز",
-        "hex_code": "#f44336"
+      "size": {
+        "id": 32690,
+        "title": "XXL"
       },
       "warranty": {
         "id": 272,
@@ -679,15 +678,15 @@
         "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
       },
       "seller": {
-        "id": 1,
-        "title": "دیجی‌کالا",
-        "code": "5A52N",
-        "url": "https://www.digikala.com/seller/5A52N/",
+        "id": 111213,
+        "title": "سام خرید ",
+        "code": "A9FU4",
+        "url": "https://www.digikala.com/seller/A9FU4/",
         "rating": {
-          "total_rate": 0,
-          "total_count": 0,
+          "total_rate": 78,
+          "total_count": 7632,
           "commitment": 100,
-          "no_return": 99.9,
+          "no_return": 99.1,
           "on_time_shipping": 100
         },
         "properties": {
@@ -696,21 +695,21 @@
           "is_roosta": false,
           "is_new": false
         },
-        "stars": 5,
-        "registration_date": "6 سال و 2 ماه"
+        "stars": 3.8,
+        "registration_date": "3 سال و 8 ماه"
       },
       "digiclub": {
-        "point": 36
+        "point": 16
       },
       "price": {
-        "selling_price": 3550000,
-        "rrp_price": 5100000,
+        "selling_price": 1567500,
+        "rrp_price": 2850000,
         "order_limit": 1,
         "is_incredible": true,
         "is_promotion": false,
         "is_locked_for_digiplus": false,
-        "discount_percent": 30,
-        "timer": 23627,
+        "discount_percent": 45,
+        "timer": 81048,
         "badge": {
           "title": "پیشنهاد شگفت انگیز",
           "color": "#E6123D",
@@ -718,7 +717,7 @@
         },
         "is_digiplus_promotion": false,
         "is_digiplus_early_access": false,
-        "is_application_incredible": false,
+        "is_application_incredible": true,
         "is_lightening_deal": false
       },
       "has_importer_price": false,
@@ -735,23 +734,24 @@
           }
         ]
       },
-      "title_fa": "سرویس تابه دو پارچه دیجی کالا هوم مدل Basic",
-      "link": "/product/7970582",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/7168fb77cea092e63f92494e09deca9a5ef431c0_1646207113.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+      "title_fa": "تی شرت آستین کوتاه مردانه مالدینی مدل T-155",
+      "link": "/product/9107000",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/39c744d40f80227fad56e8b1a97f86b1f1c5f3ac_1659330488.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "count": 2
     },
     {
-      "id": 28025751,
+      "id": 31711422,
       "lead_time": 0,
-      "rank": 99.6,
-      "rate": 60,
+      "rank": 75.86,
+      "rate": 68,
       "statistics": {
         "totally_satisfied": {
-          "rate_count": 1,
-          "rate": 20
+          "rate_count": 3,
+          "rate": 60
         },
         "satisfied": {
-          "rate_count": 2,
-          "rate": 40
+          "rate_count": 0,
+          "rate": 0
         },
         "neutral": {
           "rate_count": 0,
@@ -766,7 +766,7 @@
           "rate": 40
         },
         "total_count": 5,
-        "total_rate": 60
+        "total_rate": 68
       },
       "status": "marketable",
       "properties": {
@@ -787,9 +787,9 @@
         "is_general_location_jet_eligible": false
       },
       "color": {
-        "id": 13,
-        "title": "نوک مدادی",
-        "hex_code": "#424242"
+        "id": 131,
+        "title": "آبی نیلی",
+        "hex_code": "#4682b4"
       },
       "warranty": {
         "id": 272,
@@ -797,15 +797,15 @@
         "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
       },
       "seller": {
-        "id": 1,
-        "title": "دیجی‌کالا",
-        "code": "5A52N",
-        "url": "https://www.digikala.com/seller/5A52N/",
+        "id": 121442,
+        "title": "ابزار فروش شهر",
+        "code": "AC24Y",
+        "url": "https://www.digikala.com/seller/AC24Y/",
         "rating": {
-          "total_rate": 0,
-          "total_count": 0,
+          "total_rate": 80,
+          "total_count": 3228,
           "commitment": 100,
-          "no_return": 99.9,
+          "no_return": 99.3,
           "on_time_shipping": 100
         },
         "properties": {
@@ -814,743 +814,20 @@
           "is_roosta": false,
           "is_new": false
         },
-        "stars": 5,
-        "registration_date": "6 سال و 2 ماه"
-      },
-      "digiclub": {
-        "point": 36
-      },
-      "price": {
-        "selling_price": 3550000,
-        "rrp_price": 5100000,
-        "order_limit": 1,
-        "is_incredible": true,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 30,
-        "timer": 23627,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار دیجی‌کالا",
-        "has_lead_time": true,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا",
-            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": false,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "سرویس تابه دو پارچه دیجی کالا هوم مدل Basic",
-      "link": "/product/7970582",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/7168fb77cea092e63f92494e09deca9a5ef431c0_1646207113.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 1953218,
-      "lead_time": 1,
-      "rank": 100,
-      "rate": 100,
-      "statistics": {
-        "totally_satisfied": {
-          "rate_count": 1,
-          "rate": 100
-        },
-        "satisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "neutral": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "dissatisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "totally_dissatisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "total_count": 1,
-        "total_rate": 100
-      },
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": false,
-        "is_rural": false,
-        "in_digikala_warehouse": false
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان"
-        ],
-        "is_jet_eligible": false,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "size": {
-        "id": 945,
-        "title": "0.36 گرم"
-      },
-      "warranty": {
-        "id": 272,
-        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
-        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
-      },
-      "seller": {
-        "id": 4438,
-        "title": "مانچو",
-        "code": "5ACR4",
-        "url": "https://www.digikala.com/seller/5ACR4/",
-        "rating": {
-          "total_rate": 77,
-          "total_count": 4558,
-          "commitment": 100,
-          "no_return": 99.4,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": true,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 4.4,
-        "registration_date": "4 سال و 8 ماه"
-      },
-      "digiclub": {
-        "point": 79
-      },
-      "price": {
-        "selling_price": 7839000,
-        "rrp_price": 14530000,
-        "order_limit": 1,
-        "is_incredible": true,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 46,
-        "timer": 23416,
-        "sold_percentage": 31,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار فروشنده",
-        "has_lead_time": false,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا از 1 روز کاری دیگر",
-            "description": "این کالا پس از مدت زمان مشخص شده توسط فروشنده در انبار دیجی‌کالا تامین و آماده پردازش می‌گردد و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": true,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "دستبند طلا 18عیار مردانه مانچو مدل bfg041",
-      "link": "/product/879438",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/4080559.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 30628171,
-      "lead_time": 0,
-      "rank": 99.2,
-      "rate": 20,
-      "statistics": {
-        "totally_satisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "satisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "neutral": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "dissatisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "totally_dissatisfied": {
-          "rate_count": 1,
-          "rate": 100
-        },
-        "total_count": 1,
-        "total_rate": 20
-      },
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": false,
-        "is_rural": false,
-        "in_digikala_warehouse": true
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان",
-          "امکان ارسال فوری (شهر تهران)"
-        ],
-        "is_jet_eligible": true,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "color": {
-        "id": 1,
-        "title": "مشکی",
-        "hex_code": "#212121"
-      },
-      "warranty": {
-        "id": 1879,
-        "title_fa": "گارانتی 18 ماهه چهار فصل اوریکو",
-        "title_en": "گارانتی 18 ماهه چهار فصل اوریکو"
-      },
-      "seller": {
-        "id": 297,
-        "title": "اوریکو",
-        "code": "5A5F7",
-        "url": "https://www.digikala.com/seller/5A5F7/",
-        "rating": {
-          "total_rate": 83,
-          "total_count": 2827,
-          "commitment": 100,
-          "no_return": 99.5,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 4.4,
-        "registration_date": "5 سال و 4 ماه"
-      },
-      "digiclub": {
-        "point": 29
-      },
-      "price": {
-        "selling_price": 2900000,
-        "rrp_price": 3950000,
-        "order_limit": 1,
-        "is_incredible": true,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 27,
-        "timer": 22575,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار دیجی‌کالا",
-        "has_lead_time": true,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا",
-            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": false,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "ماوس بی سیم اوریکو مدل WDM-V2C",
-      "link": "/product/8617853",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/b19cd22df5c28cf884bced471793a0ee0ba88784_1653730916.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 16953374,
-      "lead_time": 0,
-      "rank": 99.73,
-      "rate": 72.6,
-      "statistics": {
-        "totally_satisfied": {
-          "rate_count": 2,
-          "rate": 25
-        },
-        "satisfied": {
-          "rate_count": 2,
-          "rate": 25
-        },
-        "neutral": {
-          "rate_count": 3,
-          "rate": 37.5
-        },
-        "dissatisfied": {
-          "rate_count": 1,
-          "rate": 12.5
-        },
-        "totally_dissatisfied": {
-          "rate_count": 0,
-          "rate": 0
-        },
-        "total_count": 8,
-        "total_rate": 72.6
-      },
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": false,
-        "is_rural": false,
-        "in_digikala_warehouse": true
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان",
-          "امکان ارسال فوری (شهر تهران)"
-        ],
-        "is_jet_eligible": true,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "warranty": {
-        "id": 3,
-        "title_fa": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا",
-        "title_en": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا"
-      },
-      "seller": {
-        "id": 364401,
-        "title": "کارماستا",
-        "code": "CD6YD",
-        "url": "https://www.digikala.com/seller/CD6YD/",
-        "rating": {
-          "total_rate": 79,
-          "total_count": 16404,
-          "commitment": 100,
-          "no_return": 98.8,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 3.5,
-        "registration_date": "2 سال و 4 ماه"
-      },
-      "digiclub": {
-        "point": 9
-      },
-      "price": {
-        "selling_price": 850000,
-        "rrp_price": 1200000,
-        "order_limit": 1,
-        "is_incredible": true,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 29,
-        "timer": 21607,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار دیجی‌کالا",
-        "has_lead_time": true,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا",
-            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": false,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "چراغ سیار خودرو  مدل 8400",
-      "link": "/product/3100185",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/7633ac64e2823bdaa006d163c79eead2aeae84ce_1594926782.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 30528150,
-      "lead_time": 1,
-      "rank": 95.33,
-      "rate": 0,
-      "statistics": null,
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": false,
-        "is_rural": false,
-        "in_digikala_warehouse": false
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان"
-        ],
-        "is_jet_eligible": false,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "color": {
-        "id": 2,
-        "title": "سفید",
-        "hex_code": "#FFFFFF"
-      },
-      "warranty": {
-        "id": 1879,
-        "title_fa": "گارانتی 18 ماهه چهار فصل اوریکو",
-        "title_en": "گارانتی 18 ماهه چهار فصل اوریکو"
-      },
-      "seller": {
-        "id": 297,
-        "title": "اوریکو",
-        "code": "5A5F7",
-        "url": "https://www.digikala.com/seller/5A5F7/",
-        "rating": {
-          "total_rate": 83,
-          "total_count": 2827,
-          "commitment": 100,
-          "no_return": 99.5,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 4.4,
-        "registration_date": "5 سال و 4 ماه"
-      },
-      "digiclub": {
-        "point": 40
-      },
-      "price": {
-        "selling_price": 3950000,
-        "rrp_price": 3950000,
-        "order_limit": 9,
-        "is_incredible": false,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 0
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار فروشنده",
-        "has_lead_time": false,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا از 1 روز کاری دیگر",
-            "description": "این کالا پس از مدت زمان مشخص شده توسط فروشنده در انبار دیجی‌کالا تامین و آماده پردازش می‌گردد و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": true,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "ماوس بی سیم اوریکو مدل WDM-V2C",
-      "link": "/product/8617853",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/b19cd22df5c28cf884bced471793a0ee0ba88784_1653730916.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 33019756,
-      "lead_time": 0,
-      "rank": 9.85,
-      "rate": 0,
-      "statistics": null,
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": false,
-        "is_rural": false,
-        "in_digikala_warehouse": true
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان",
-          "امکان ارسال فوری (شهر تهران)"
-        ],
-        "is_jet_eligible": true,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "color": {
-        "id": 2,
-        "title": "سفید",
-        "hex_code": "#FFFFFF"
-      },
-      "warranty": {
-        "id": 272,
-        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
-        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
-      },
-      "seller": {
-        "id": 1,
-        "title": "دیجی‌کالا",
-        "code": "5A52N",
-        "url": "https://www.digikala.com/seller/5A52N/",
-        "rating": {
-          "total_rate": 0,
-          "total_count": 0,
-          "commitment": 100,
-          "no_return": 99.9,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 5,
-        "registration_date": "6 سال و 2 ماه"
-      },
-      "digiclub": {
-        "point": 24
-      },
-      "price": {
-        "selling_price": 2380000,
-        "rrp_price": 6990000,
-        "order_limit": 1,
-        "is_incredible": true,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 66,
-        "timer": 17001,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار دیجی‌کالا",
-        "has_lead_time": true,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا",
-            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": false,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "کیف رودوشی زنانه اسپیور مدل DWA65",
-      "link": "/product/9194162",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/f48b628855e615b1b80c198285f77d912b81c297_1664631462.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 33600183,
-      "lead_time": 0,
-      "rank": 99.85,
-      "rate": 0,
-      "statistics": null,
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": true,
-        "is_rural": false,
-        "in_digikala_warehouse": true
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان",
-          "امکان ارسال فوری (شهر تهران)"
-        ],
-        "is_jet_eligible": true,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "warranty": {
-        "id": 78,
-        "title_fa": "گارانتی 24 ماهه ایزی",
-        "title_en": "گارانتی 24 ماهه ایزی"
-      },
-      "seller": {
-        "id": 1,
-        "title": "دیجی‌کالا",
-        "code": "5A52N",
-        "url": "https://www.digikala.com/seller/5A52N/",
-        "rating": {
-          "total_rate": 0,
-          "total_count": 0,
-          "commitment": 100,
-          "no_return": 99.9,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 5,
-        "registration_date": "6 سال و 2 ماه"
-      },
-      "digiclub": {
-        "point": 145
-      },
-      "price": {
-        "selling_price": 14500000,
-        "rrp_price": 17500000,
-        "order_limit": 1,
-        "is_incredible": true,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "discount_percent": 17,
-        "timer": 16935,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار دیجی‌کالا",
-        "has_lead_time": true,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا",
-            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": false,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": " کارت شبکه بی ‌سیم USB دی-لینک مدل DWA-185",
-      "link": "/product/5752751",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/9b127d7a5f17c33fba69701819249f3f0344a5b4_1626258345.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 32519024,
-      "lead_time": 0,
-      "rank": 96.39,
-      "rate": 0,
-      "statistics": null,
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": true,
-        "is_rural": false,
-        "in_digikala_warehouse": true
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان"
-        ],
-        "is_jet_eligible": false,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "color": {
-        "id": 1,
-        "title": "مشکی",
-        "hex_code": "#212121"
-      },
-      "warranty": {
-        "id": 7993,
-        "title_fa": "گارانتی 18 ماهه مهر مینا الکترونیک",
-        "title_en": "گارانتی 18 ماهه مهر مینا الکترونیک"
-      },
-      "seller": {
-        "id": 1,
-        "title": "دیجی‌کالا",
-        "code": "5A52N",
-        "url": "https://www.digikala.com/seller/5A52N/",
-        "rating": {
-          "total_rate": 0,
-          "total_count": 0,
-          "commitment": 100,
-          "no_return": 99.9,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 5,
-        "registration_date": "6 سال و 2 ماه"
+        "stars": 4.1,
+        "registration_date": "3 سال و 7 ماه"
       },
       "digiclub": {
         "point": 150
       },
       "price": {
-        "selling_price": 78540000,
-        "rrp_price": 91000000,
+        "selling_price": 19990000,
+        "rrp_price": 19990000,
         "order_limit": 1,
-        "is_incredible": true,
+        "is_incredible": false,
         "is_promotion": false,
         "is_locked_for_digiplus": false,
-        "marketable_stock": 2,
-        "discount_percent": 14,
-        "timer": 16906,
-        "sold_percentage": 60,
-        "badge": {
-          "title": "پیشنهاد شگفت انگیز",
-          "color": "#E6123D",
-          "icon": null
-        },
-        "is_digiplus_promotion": false,
-        "is_digiplus_early_access": false,
-        "is_application_incredible": false,
-        "is_lightening_deal": false
+        "discount_percent": 0
       },
       "has_importer_price": false,
       "manufacture_price_not_exist": false,
@@ -1559,101 +836,17 @@
         "has_lead_time": true,
         "providers": [
           {
-            "title": "باربری توسط دیجی‌کالا",
+            "title": "ارسال دیجی‌کالا",
             "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
             "has_lead_time": false,
             "type": "digikala"
           }
         ]
       },
-      "title_fa": "پخش کننده خانگی دنای مدل DE-WB3080L3B",
-      "link": "/product/9017114",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/1e4de3c27edf7d9bf42bdeef746098c43c659233_1658254745.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
-    },
-    {
-      "id": 34131833,
-      "lead_time": 1,
-      "rank": 99.84,
-      "rate": 0,
-      "statistics": null,
-      "status": "marketable",
-      "properties": {
-        "is_fast_shipping": false,
-        "is_ship_by_seller": false,
-        "is_multi_warehouse": false,
-        "has_similar_variants": false,
-        "is_rural": false,
-        "in_digikala_warehouse": false
-      },
-      "digiplus": {
-        "services": [
-          "ارسال رایگان"
-        ],
-        "is_jet_eligible": false,
-        "cash_back": 0,
-        "is_general_location_jet_eligible": false
-      },
-      "color": {
-        "id": 37,
-        "title": "بی رنگ شفاف",
-        "hex_code": "#f5fafd"
-      },
-      "warranty": {
-        "id": 3,
-        "title_fa": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا",
-        "title_en": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا"
-      },
-      "seller": {
-        "id": 986646,
-        "title": "لوازم جانبی هیراد",
-        "code": "EGP5S",
-        "url": "https://www.digikala.com/seller/EGP5S/",
-        "rating": {
-          "total_rate": 85,
-          "total_count": 35,
-          "commitment": 100,
-          "no_return": 100,
-          "on_time_shipping": 100
-        },
-        "properties": {
-          "is_trusted": false,
-          "is_official": false,
-          "is_roosta": false,
-          "is_new": false
-        },
-        "stars": 5,
-        "registration_date": "2 ماه و 2 هفته"
-      },
-      "digiclub": {
-        "point": 3
-      },
-      "price": {
-        "selling_price": 240000,
-        "rrp_price": 240000,
-        "order_limit": 1,
-        "is_incredible": false,
-        "is_promotion": false,
-        "is_locked_for_digiplus": false,
-        "marketable_stock": 1,
-        "discount_percent": 0
-      },
-      "has_importer_price": false,
-      "manufacture_price_not_exist": false,
-      "shipment_methods": {
-        "description": "موجود در انبار فروشنده",
-        "has_lead_time": false,
-        "providers": [
-          {
-            "title": "ارسال دیجی‌کالا از 1 روز کاری دیگر",
-            "description": "این کالا پس از مدت زمان مشخص شده توسط فروشنده در انبار دیجی‌کالا تامین و آماده پردازش می‌گردد و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
-            "has_lead_time": true,
-            "type": "digikala"
-          }
-        ]
-      },
-      "title_fa": "کاور ژله ای مناسب برای آیفون 6",
-      "link": "/product/45651",
-      "image": "https://dkstatics-public.digikala.com/digikala-products/213713.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+      "title_fa": "مجموعه 48 عددی جعبه ابزار باس مدل BS1308",
+      "link": "/product/8314114",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/ffa6a41451a807ccd25cb50a519d45b248058874_1650343878.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "count": 1
     }
   ]
 }

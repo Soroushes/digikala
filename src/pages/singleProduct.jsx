@@ -29,6 +29,7 @@ const SingleProduct = ()=>{
     return(
         loading ? "" :
             <SingleProductHead/>
+
     )
 
 }

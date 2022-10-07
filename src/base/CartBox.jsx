@@ -2,12 +2,13 @@ import {Col, Row} from "reactstrap";
 import priceDivider from "../helpers/priceDivider";
 import {useSelector} from "react-redux";
 import {Link} from "react-router-dom";
+import CartDelete from "./cartDelete";
 
 const CartBox = ()=>{
     const cartItems = useSelector(state => state.cart) ;
     let finalPrice = 0 ;
     cartItems.map((item)=>{
-        return (item.price.selling_price)/10 ;
+        return (item.price.selling_price)/10*item.count ;
     }).forEach((price)=>{
         finalPrice+=price ;
     })
@@ -33,7 +34,12 @@ const CartBox = ()=>{
                                     {
                                         element.size ? <p className={"mt-3 fw-bold"} >اندازه :  {element.size.title}</p> : ""
                                     }
-                                    <div className={'mt-3 text-start fw-bold mb-3'}>{priceDivider((element.price.selling_price)/10)} تومان </div>
+                                </Col>
+                                <Col md={12}>
+                                    <div className="d-flex justify-content-between">
+                                        <CartDelete item={element}/>
+                                        <div className={'mt-3 text-start fw-bold mb-3'}>{priceDivider((element.price.selling_price)/10)} تومان </div>
+                                    </div>
                                 </Col>
                             </Row>
                         )
