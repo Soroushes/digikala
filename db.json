@@ -1569,6 +1569,91 @@
       "title_fa": "پخش کننده خانگی دنای مدل DE-WB3080L3B",
       "link": "/product/9017114",
       "image": "https://dkstatics-public.digikala.com/digikala-products/1e4de3c27edf7d9bf42bdeef746098c43c659233_1658254745.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
+    },
+    {
+      "id": 34131833,
+      "lead_time": 1,
+      "rank": 99.84,
+      "rate": 0,
+      "statistics": null,
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": false,
+        "is_rural": false,
+        "in_digikala_warehouse": false
+      },
+      "digiplus": {
+        "services": [
+          "ارسال رایگان"
+        ],
+        "is_jet_eligible": false,
+        "cash_back": 0,
+        "is_general_location_jet_eligible": false
+      },
+      "color": {
+        "id": 37,
+        "title": "بی رنگ شفاف",
+        "hex_code": "#f5fafd"
+      },
+      "warranty": {
+        "id": 3,
+        "title_fa": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا",
+        "title_en": "سرویس ویژه دیجی کالا: 7 روز تضمین بازگشت کالا"
+      },
+      "seller": {
+        "id": 986646,
+        "title": "لوازم جانبی هیراد",
+        "code": "EGP5S",
+        "url": "https://www.digikala.com/seller/EGP5S/",
+        "rating": {
+          "total_rate": 85,
+          "total_count": 35,
+          "commitment": 100,
+          "no_return": 100,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": false,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 5,
+        "registration_date": "2 ماه و 2 هفته"
+      },
+      "digiclub": {
+        "point": 3
+      },
+      "price": {
+        "selling_price": 240000,
+        "rrp_price": 240000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": false,
+        "is_locked_for_digiplus": false,
+        "marketable_stock": 1,
+        "discount_percent": 0
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار فروشنده",
+        "has_lead_time": false,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا از 1 روز کاری دیگر",
+            "description": "این کالا پس از مدت زمان مشخص شده توسط فروشنده در انبار دیجی‌کالا تامین و آماده پردازش می‌گردد و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": true,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "کاور ژله ای مناسب برای آیفون 6",
+      "link": "/product/45651",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/213713.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90"
     }
   ]
 }

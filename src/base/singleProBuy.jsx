@@ -2,6 +2,7 @@ import {useSelector} from "react-redux";
 import {ShopOutlined} from "@ant-design/icons";
 import priceDivider from "../helpers/priceDivider";
 import CartButton from "./cartButton";
+import sellerDetail from "../helpers/sellerDetail";
 
 const SingleProBuy = ()=>{
     const {selected , simple} = useSelector(state => state.singleProduct) ;
@@ -17,7 +18,10 @@ const SingleProBuy = ()=>{
                <h2 style={{fontSize : 15}}><ShopOutlined style={{fontSize : 22}} className={'ms-2'}/>{selected.seller.title}</h2>
             <div className="d-flex mt-3 mb-3 border-bottom">
                 {
-                    selected.rate ? <p style={{fontSize : 11}}> % {selected.rate}  رضایت از کالا </p> : ""
+                    selected.rate ? <p className={'ps-2 border-start'} style={{fontSize : 11}}> <span style={{color : sellerDetail((selected.rate)/20).color}}>{selected.rate}%</span>  رضایت از کالا </p> : ""
+                }
+                {
+                    selected.seller.stars ? <p className={'me-2'} style={{fontSize : 11 , color  : sellerDetail(selected.seller.stars).color}}><span className={'text-dark'}>عملکرد : </span>{sellerDetail(selected.seller.stars).title}</p> : ""
                 }
             </div>
             {
