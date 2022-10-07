@@ -22,6 +22,17 @@ const CartBox = ()=>{
                                 <Col md={5}><Link to={element.link}><img className={'w-100'} src={element.image} alt={element.title_fa}/></Link></Col>
                                 <Col md={7}>
                                     <div>{element.title_fa}</div>
+                                    {
+                                        element.color ?
+                                            <div className={"d-flex justify-content-between align-items-center"}>
+                                                <p className={"mt-3 fw-bold"} >رنگ :  {element.color.title}</p>
+                                                <div style={{backgroundColor : element.color.hex_code , width : 30 , height : 30}} className={'rounded-pill border border-3 d-flex align-items-center justify-content-center' }>
+                                                </div>
+                                            </div> : ""
+                                    }
+                                    {
+                                        element.size ? <p className={"mt-3 fw-bold"} >اندازه :  {element.size.title}</p> : ""
+                                    }
                                     <div className={'mt-3 text-start fw-bold mb-3'}>{priceDivider((element.price.selling_price)/10)} تومان </div>
                                 </Col>
                             </Row>
