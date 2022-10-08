@@ -159,6 +159,9 @@ body , .root {
     background-repeat: no-repeat;
     min-height: 350px;
 }
+.other-sellers:nth-child(odd){
+    background-color: #f7f7f8;
+}
 @media screen and (min-width: 1500px) {
     .self-container{
         padding: 0 130px;

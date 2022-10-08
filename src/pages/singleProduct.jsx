@@ -1,13 +1,15 @@
 import {useParams} from "react-router-dom";
 import {useEffect, useState} from "react";
 import getHomeItems from "../queries/getHomeItems";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {SET} from "../redux/slice/singleProductsSlice";
 import SingleProductHead from "../containers/singleProductHead";
+import OtherSellers from "../containers/otherSellers";
 const SingleProduct = ()=>{
     const dispatcher = useDispatch() ;
     const {id} = useParams() ;
     const [loading , setLoading] = useState(true) ;
+    const {simple} = useSelector(state => state.singleProduct) ;
     useEffect(()=>{
         getHomeItems('https://api.digikala.com/v1/product/'+id+'/')
             .then((result)=>{
@@ -16,9 +18,7 @@ const SingleProduct = ()=>{
                     selected : {
                         ...result.data.data.product.default_variant
                     },
-                    simple : {
-                        ...result.data.data.product.variants
-                    }
+                    simple : [...result.data.data.product.variants]
                 }))
                 setLoading(false) ;
             })
@@ -28,8 +28,12 @@ const SingleProduct = ()=>{
     },[id])
     return(
         loading ? "" :
-            <SingleProductHead/>
-
+            <>
+                <SingleProductHead/>
+                {
+                    simple.length>1 ? <OtherSellers/> : ""
+                }
+            </>
     )
 
 }

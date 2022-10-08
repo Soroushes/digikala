@@ -41,7 +41,7 @@ const SingleProBuy = ()=>{
                         </div> : ""
                 }
                 <p style={{fontSize : 14}} className={'price text-start'}>{priceDivider((selected.price.selling_price)/10)} تومان</p>
-                <CartButton/>
+                <CartButton font={15} selected={selected}/>
             </div>
         </div> :
             <div className={'w-100 d-flex justify-content-center'}>
