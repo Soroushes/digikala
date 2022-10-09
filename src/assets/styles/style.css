@@ -6,16 +6,16 @@
 }
 
 body {
-    font-family: digikala;
+    font-family: digikala, serif;
     box-sizing: border-box;
     color : #333 ;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 .search-input{
     display: block;
     height: 100%;
     width: 100%;
-    border: 0px;
+    border: none;
     background-color: transparent;
 }
 .swiper-wrapper{
@@ -32,7 +32,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow-x: hidden;
-    padding: 0px 20px;
+    padding: 0 20px;
     z-index: 10001;
 }
 .search-box{
@@ -78,7 +78,7 @@ body {
     color : #333 ;
 }
 .products-row{
-    padding: 15px 0px;
+    padding: 15px 0;
     width: 100%;
     min-height: 200px;
     background-color:#ef394e ;
