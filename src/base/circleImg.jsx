@@ -1,9 +1,12 @@
-const CircleImg = ({img , title='' , font=10 , rounded=false})=>{
+const CircleImg = ({img , title='' , font=10})=>{
     return(
-        <div className={'p-2 p-lg-3 mb-2'}>
-            <p><img className={'w-100'} src={img} alt={title}/></p>
+        <>
+            <div className={'px-2 p-lg-3'}>
+                <p className={'m-0'}><img className={'w-100'} src={img} alt={title}/></p>
+            </div>
             <p className={'text-center'} style={{fontSize : font}}>{title}</p>
-        </div>
-    )
+        </>
+
+)
 }
 export default CircleImg ;
