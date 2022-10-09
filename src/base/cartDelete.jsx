@@ -35,11 +35,11 @@ const CartDelete = ({item})=>{
     return(
         loading ? <LoadingOutlined style={{fontSize : 30}}/> :
         <div className={'d-flex align-items-center'}>
-            <span onClick={cartEdit.bind(this , true)} style={{width : 20 , height : 20}} className={'rounded-pill border d-flex justify-content-center align-items-center'}>+</span>
+            <span onClick={cartEdit.bind(this , true)} style={{width : 20 , height : 20 , cursor  :"pointer"}} className={'rounded-pill border d-flex justify-content-center align-items-center'}>+</span>
             <span className={'px-4 mx-2 py-1 border rounded-2'}>{item.count}</span>
             {
                 item.count === 1 ?
-                    <DeleteOutlined onClick={deleteItem} style={{color: "#f00"}}/> : <span onClick={cartEdit.bind(this , false)} style={{width : 20 , height : 20}} className={'rounded-pill border d-flex justify-content-center align-items-center'}>-</span>
+                    <DeleteOutlined onClick={deleteItem} style={{color: "#f00"}}/> : <span onClick={cartEdit.bind(this , false)} style={{width : 20 , height : 20 , cursor  :"pointer"}} className={'rounded-pill border d-flex justify-content-center align-items-center'}>-</span>
             }
         </div>
     )

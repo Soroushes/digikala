@@ -21,7 +21,7 @@ const ProductColors = ()=>{
     return(
         <>
             <h3 className={'fw-bold'} style={{fontSize : 16}}>  رنگ :  {selected.color.title}</h3>
-            <div className={'d-flex mt-4 gap-3'}>
+            <div className={'d-flex flex-wrap mt-4 gap-3'}>
                 {
                     colors.map((color)=>{
                         return(
