@@ -1,4 +1,5 @@
 import {Col} from "reactstrap";
+import {Link} from "react-router-dom";
 
 const PlusItems = ({title , items ,className})=>{
     return(
@@ -12,7 +13,7 @@ const PlusItems = ({title , items ,className})=>{
                         else {
                             return(
                                 <Col xs={4} md={6} lg={4} key={item.id} className={'mb-4 px-3'}>
-                                    <img className={'w-100'} src={item.images.main.url[0]} alt={item.title}/>
+                                    <Link to={'/product/'+item.id}><img className={'w-100'} src={item.images.main.url[0]} alt={item.title}/></Link>
                                 </Col>
                             )
                         }
