@@ -12,7 +12,7 @@ const OtherSellers = ()=> {
     //simple.sort((a,b)=>a.price.selling_price - b.price.selling_price) ;
     return(
         <Container className={'self-container mt-5'} fluid={true}>
-            <h2 className={'fw-bold'} style={{fontSize : 16}}>فروشندگان این کالا</h2>
+            <h2 className={'fw-bold me-3 mb-3'} style={{fontSize : 16}}>فروشندگان این کالا</h2>
             {
                 simple.map((item , index)=>{
                     return(
