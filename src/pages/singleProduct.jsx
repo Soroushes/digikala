@@ -5,12 +5,14 @@ import {useDispatch, useSelector} from "react-redux";
 import {SET} from "../redux/slice/singleProductsSlice";
 import SingleProductHead from "../containers/singleProductHead";
 import OtherSellers from "../containers/otherSellers";
+import SingleProLoading from "../base/SingleProLoading";
 const SingleProduct = ()=>{
     const dispatcher = useDispatch() ;
     const {id} = useParams() ;
     const [loading , setLoading] = useState(true) ;
     const {simple} = useSelector(state => state.singleProduct) ;
     useEffect(()=>{
+        setLoading(true);
         getHomeItems('https://api.digikala.com/v1/product/'+id+'/')
             .then((result)=>{
                 dispatcher(SET({
@@ -27,7 +29,7 @@ const SingleProduct = ()=>{
             })
     },[id])
     return(
-        loading ? "" :
+        loading ? <SingleProLoading/> :
             <>
                 <SingleProductHead/>
                 {

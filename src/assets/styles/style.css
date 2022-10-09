@@ -9,10 +9,7 @@ body {
     font-family: digikala;
     box-sizing: border-box;
     color : #333 ;
-
-}
-body , .root {
-    height: 100%;
+    overflow: scroll;
 }
 .search-input{
     display: block;
