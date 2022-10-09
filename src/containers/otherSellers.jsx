@@ -4,17 +4,19 @@ import {useSelector} from "react-redux";
 import sellerDetail from "../helpers/sellerDetail";
 import CartButton from "../base/cartButton";
 import priceDivider from "../helpers/priceDivider";
+import {useState} from "react";
 
 const OtherSellers = ()=> {
+    const [opened , setOpened] = useState(false) ;
     const {simple} = useSelector(state => state.singleProduct) ;
     //simple.sort((a,b)=>a.price.selling_price - b.price.selling_price) ;
     return(
         <Container className={'self-container mt-5'} fluid={true}>
             <h2 className={'fw-bold'} style={{fontSize : 16}}>فروشندگان این کالا</h2>
             {
-                simple.map((item)=>{
+                simple.map((item , index)=>{
                     return(
-                        <Row key={item.id} className={'p-3 align-items-center other-sellers rounded-3'}>
+                        <Row key={item.id} className={'p-3 align-items-center other-sellers rounded-3 '+(!opened && index>2 ? "d-none" : "")}>
                             <Col xs={12} lg={3}>
                                 <div className={'d-flex align-items-center gap-3'}>
                                     <ShopOutlined style={{fontSize : 22}}/>
@@ -58,6 +60,10 @@ const OtherSellers = ()=> {
                         </Row>
                     )
                 })
+            }
+            {
+                simple.length > 3 ?
+                    <p style={{cursor : "pointer" , color : "blue" , fontSize : 12}} onClick={()=>setOpened(!opened)} className={'me-3 mt-2'}>{opened ?'بستن' : 'مشاهده بیشتر'}</p> : ""
             }
         </Container>
     )
