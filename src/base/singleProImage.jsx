@@ -10,11 +10,20 @@ const SingleProImage = ()=>{
         <>
             <Swiper
                 spaceBetween={0}
+                resizeObserver={true}
+                observeParents={true}
+                observer={true}
+                updateOnWindowResize={true}
                 slidesPerView={1}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode,Thumbs]}
                 className="mySwiper2"
             >
+                <SwiperSlide>
+                    <div className={'rounded-3 p-1'}>
+                        <img className={'w-100'} src={images.main.url[0]} alt=""/>
+                    </div>
+                </SwiperSlide>
                 {
                     images.list.map((pics , index)=>{
                         return(
@@ -36,6 +45,11 @@ const SingleProImage = ()=>{
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper"
             >
+                <SwiperSlide>
+                    <div className={'rounded-3 p-1 border'}>
+                        <img className={'w-100'} src={images.main.url[0]} alt=""/>
+                    </div>
+                </SwiperSlide>
                 {
                     images.list.map((pics , index)=>{
                         return(

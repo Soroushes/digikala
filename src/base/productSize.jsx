@@ -21,7 +21,7 @@ const ProductSize = ()=>{
         dispatcher(SIMPLE(filtered)) ;
     },[selected])
     return(
-        <>
+        <div className={'pe-4 pe-lg-0'}>
             <h3 className={'fw-bold mb-3'} style={{fontSize : 16}}>  اندازه :  {selected.size.title}</h3>
             <Select
                 className={'text-center rounded-3'}
@@ -46,7 +46,7 @@ const ProductSize = ()=>{
                     })
                 }
             </Select>
-        </>
+        </div>
     )
 }
 export default ProductSize ;

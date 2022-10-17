@@ -3,6 +3,7 @@ import cartAdd from "../queries/cartAdd";
 import {useDispatch} from "react-redux";
 import {CHECK_CART} from "../redux/slice/cart";
 import {useState} from "react";
+import {Spin} from "antd";
 
 const CartDelete = ({item})=>{
     const dispatcher = useDispatch() ;
@@ -33,7 +34,7 @@ const CartDelete = ({item})=>{
         }
     }
     return(
-        loading ? <LoadingOutlined style={{fontSize : 30}}/> :
+        loading ? <Spin indicator={<LoadingOutlined style={{color : "red" , fontSize : 40}} spin/>}/> :
         <div className={'d-flex align-items-center'}>
             <span onClick={cartEdit.bind(this , true)} style={{width : 20 , height : 20 , cursor  :"pointer"}} className={'rounded-pill border d-flex justify-content-center align-items-center'}>+</span>
             <span className={'px-4 mx-2 py-1 border rounded-2'}>{item.count}</span>

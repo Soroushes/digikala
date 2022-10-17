@@ -19,8 +19,8 @@ const FourPicsRow = ({route})=>{
         }
     }
     return(
-        <Container>
-            <Row className={'m-0 my-4 border rounded-4'}>
+        <Container fluid={'lg'} className={'p-0 p-lg-3'}>
+            <Row className={'m-0 my-4 border no-border rounded-4'}>
                 {
                     items.map((item , index)=>{
                         return(

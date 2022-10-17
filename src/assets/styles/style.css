@@ -25,8 +25,6 @@ body {
     outline: none;
 }
 .search-bar{
-    right: 0;
-    top: 0;
     max-height: 400px;
     background-color: white;
     border: 1px solid #ccc;
@@ -34,6 +32,7 @@ body {
     overflow-x: hidden;
     padding: 0 20px;
     z-index: 10001;
+    top: -20px;
 }
 .search-box{
     min-height: 300px;
@@ -158,6 +157,11 @@ body {
 }
 .other-sellers:nth-child(odd){
     background-color: #f7f7f8;
+}
+@media screen and (max-width: 990px) {
+    .no-border{
+        border: none !important; ;
+    }
 }
 @media screen and (min-width: 1500px) {
     .self-container{

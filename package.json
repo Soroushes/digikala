@@ -32,7 +32,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject" ,
-    "db" : "json-server --watch db.json --delay 1500"
+    "db" : "json-server --watch db.json --delay 1500 --port 3333 "
   },
   "eslintConfig": {
     "extends": [

@@ -11,7 +11,7 @@ const Search = ()=>{
         setValue(e.target.value) ;
         if (searchTime)clearTimeout(searchTime) ;
         searchTime = setTimeout(async ()=>{
-            if(e.target.value.length>=3){
+            if(e.target.value.length>=2){
                 setLoading(true) ;
                 let result = await searchAjax(e.target.value) ;
                 setLoading(false) ;
@@ -33,12 +33,12 @@ const Search = ()=>{
     document.getElementById('root').addEventListener("click", blur) ;
     const focus = ()=>setOnInput(true) ;
     return(
-        <>
-            <div data-click={'click'} className={'w-100 position-absolute search-bar shadow-sm'} style={{overflowY : onInput ? "scroll" : "" , backgroundColor : onInput ? "" : "#eee" }}>
+        <div className={'position-relative'}>
+            <div data-click={'click'} className={'w-100 position-absolute start-0 search-bar shadow-sm'} style={{overflowY : onInput ? "scroll" : "" , backgroundColor : onInput ? "" : "#eee"}}>
                 <input data-click={'click'} className={"search-input py-1"} placeholder={'جستجو'} onClick={focus} onChange={change} style={{borderBottom : onInput ? "1px solid #4ccddd" : ""}} value={value} type="text"/>
                 <SearchBox data-click={'click'} loading={loading} onInput={onInput} searchRes={searchRes}></SearchBox>
             </div>
-        </>
+        </div>
     )
 }
 export default Search ;

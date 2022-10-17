@@ -7,7 +7,7 @@ const RowOfPics = ()=>{
     const {loading , main_categories} = useSelector(state => state.home) ;
     const categories = main_categories ? main_categories.categories : wait ;
     return(
-        <Container>
+        <Container fluid={'lg'}>
             <Row style={{minHeight : 100}} className={'m-0 justify-content-center'}>
                 {
                     categories.map((item , index)=>{

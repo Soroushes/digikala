@@ -9,11 +9,13 @@ const BrandSlider = ()=>{
     const {popular_brands , loading} = useSelector(state => state.home) ;
     const brands = popular_brands ? popular_brands.brands : wait ;
     return(
-        <Container>
-            <div className={'p-4 border rounded-3 mb-4'}>
+        <Container className={'p-0 p-lg-3'} fluid={'lg'}>
+            <div className={'p-4 border no-border rounded-3 mb-4'}>
                 <h2 style={{fontSize : 21}} className={'text-center mb-4'}>محبوب ترین برندها</h2>
                 <Swiper
                     slidesPerView={3}
+                    resizeObserver={true}
+                    updateOnWindowResize={true}
                     observer={true}
                     observeParents={true}
                     freeMode={true}

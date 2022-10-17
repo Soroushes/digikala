@@ -26,7 +26,7 @@ const CartButton = ({selected , font})=>{
                 setCanClick(true) ;
             }catch (err){
                 setCanClick(true) ;
-                alert('وضعیت اینترنت خود را برسی کنید ! ')
+                alert('وضعیت اینترنت خود را برسی کنید ! (check json-server running)')
             }
         }
     }

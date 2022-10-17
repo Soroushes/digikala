@@ -5,7 +5,7 @@ const ProductImg = ({xs , lg, items , kilid})=>{
     const wait = Array(items).fill(<div style={{backgroundColor : '#f2f2f2' , height : 200}} className={'w-100 rounded-3'}></div>) ;
     if (!products) products = wait ;
     return(
-        <Container>
+        <Container fluid={'lg'}>
             <Row className={'p-0'}>
                 {
                     products.map((product , index)=>{

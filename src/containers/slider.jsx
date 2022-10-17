@@ -16,9 +16,16 @@ const Slider = ()=>{
                         <div className={'next-btn d-flex justify-content-center'}><img className={'w-50'} src={'./svg/prev.svg'} alt=""/></div>
                         <Swiper
                             slidesPerView={1}
+                            resizeObserver={true}
+                            updateOnWindowResize={true}
                             observer={true}
                             observeParents={true}
-                            pagination={true}
+                            watchSlidesProgress = {true}
+                            pagination={
+                            {
+                                enabled : true ,
+                                clickable : true
+                            }}
                             navigation={{
                                 enabled: true,
                                 nextEl: '.next-btn',

@@ -10,6 +10,9 @@ const OtherSellers = ()=> {
     const [opened , setOpened] = useState(false) ;
     const {simple} = useSelector(state => state.singleProduct) ;
     //simple.sort((a,b)=>a.price.selling_price - b.price.selling_price) ;
+    const akbar = ()=>{
+        setOpened(!opened) ;
+    }
     return(
         <Container className={'self-container mt-5'} fluid={true}>
             <h2 className={'fw-bold me-3 mb-3'} style={{fontSize : 16}}>فروشندگان این کالا</h2>
@@ -63,7 +66,7 @@ const OtherSellers = ()=> {
             }
             {
                 simple.length > 3 ?
-                    <p style={{cursor : "pointer" , color : "blue" , fontSize : 12}} onClick={()=>setOpened(!opened)} className={'me-3 mt-2'}>{opened ?'بستن' : 'مشاهده بیشتر'}</p> : ""
+                    <p style={{cursor : "pointer" , color : "blue" , fontSize : 12}} onClick={akbar} className={'me-3 mt-2'}>{opened ?'بستن' : 'مشاهده بیشتر'}</p> : ""
             }
         </Container>
     )

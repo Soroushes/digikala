@@ -12,10 +12,12 @@ const SuggestionSlider = ()=>{
     const items = recommendation_sub_categories ? recommendation_sub_categories : wait ;
     return(
         <>
-            <Container>
+            <Container fluid={'lg'}>
                 <h2 style={{fontSize : 23}} className={'text-center my-4'}>پیشنهاد دیجیکالا</h2>
                 <div className={'border rounded-3 mb-5'} style={{minHeightheight : 200}}>
                     <Swiper
+                        resizeObserver={true}
+                        updateOnWindowResize={true}
                         observer={true}
                         observeParents={true}
                         slidesPerView={2.5}

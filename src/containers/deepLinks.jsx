@@ -8,8 +8,8 @@ const DeepLinks = ()=>{
     let {loading , deep_links : categories} = useSelector(state => state.home) ;
     if (!categories) categories = wait ;
     return(
-        <Container>
-            <Row style={{minHeight : 100}} className={'m-0 justify-content-between'}>
+        <Container fluid={'lg'}>
+            <Row style={{minHeight : 100}} className={'m-0 mt-3 justify-content-between'}>
                 {
                     categories.map((item , index)=>{
                         let show = true ;

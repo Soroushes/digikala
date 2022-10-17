@@ -7,7 +7,7 @@ import {ArrowLeftOutlined} from "@ant-design/icons";
 const DigiPlus = ()=>{
     const {digiplus , loading} = useSelector(state => state.home) ;
     return(
-        <Container>
+        <Container fluid={'lg'} className={'p-0 p-lg-3'}>
             <Row style={{backgroundColor : "#941a80"}} className="m-0 mb-3 p-2 rounded-3 justify-content-between">
                 <Col xs={12} md={5} lg={4} >
                     <div className={'digi-plus mt-4 me-4'}>

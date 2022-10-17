@@ -4,14 +4,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
-import {FreeMode} from "swiper";
+import {FreeMode, Navigation} from "swiper";
 import priceDivider from "../helpers/priceDivider";
 import {useSelector} from "react-redux";
 import {Link} from "react-router-dom";
 const MiniProductsRow = ()=>{
     const {incredible_products, loading} = useSelector(state => state.home) ;
     return(
-        <Container className={'mt-2'}>
+        <Container fluid={'lg'} className={'mt-2 p-0 p-lg-3'}>
             {
                 loading ? <div className={'loading-container'}></div> :
                     <div className={'products-row'}>
@@ -21,11 +21,14 @@ const MiniProductsRow = ()=>{
                         <Swiper
                             observer={true}
                             observeParents={true}
+                            resizeObserver={true}
+                            updateOnWindowResize={true}
+                            navigation={true}
                             freeMode={true}
                             spaceBetween={2}
                             className="mySwiper"
                             slidesPerView={2}
-                            modules={[FreeMode]}
+                            modules={[FreeMode , Navigation]}
                             breakpoints={{
                                 450 : {
                                     slidesPerView : 3.2

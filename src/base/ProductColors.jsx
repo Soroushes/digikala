@@ -19,7 +19,7 @@ const ProductColors = ()=>{
         dispatcher(SIMPLE(filtered)) ;
     },[selected])
     return(
-        <>
+        <div className={'pe-4 pe-lg-0'}>
             <h3 className={'fw-bold'} style={{fontSize : 16}}>  رنگ :  {selected.color.title}</h3>
             <div className={'d-flex flex-wrap mt-4 gap-3'}>
                 {
@@ -35,7 +35,7 @@ const ProductColors = ()=>{
                     })
                 }
             </div>
-        </>
+        </div>
     )
 }
 export default ProductColors ;

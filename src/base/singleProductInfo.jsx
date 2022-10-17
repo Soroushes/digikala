@@ -18,7 +18,7 @@ const SingleProductInfo = ()=>{
             {
                 hasSize ? <ProductSize/> : ""
             }
-            <div style={{minHeight : 150}}>{attrs ? <ProductAttr/> : ""}</div>
+            <div className={'pe-4 pe-lg-0'} style={{minHeight : 150}}>{attrs ? <ProductAttr/> : ""}</div>
             <div className={'py-2 pe-4 mt-4 rounded-3 border d-flex justify-content-between align-items-center'}>
                 <div>
                     <h4 className={'mb-3'} style={{fontSize : 15}}>ارسال رایگان</h4>
