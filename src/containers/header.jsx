@@ -12,7 +12,7 @@ const Header = ()=>{
                 <div style={{marginTop : -top}}>
                     <Ads>ads</Ads>
                 <Container className={"shadow-sm bg-white py-3"} fluid>
-                    <Container fluid={'xl'}>
+                    <div className={'self-container'}>
                         <Row className={'align-items-center'}>
                             <Col className={"d-flex mb-2 mb-md-0 justify-content-center"} xs={{size : 12}} md={{size : 2 , offset : 0}}>
                                 <Link to={'/'}><img className={"h-100 img-fluid"} src="https://www.digikala.com/statics/img/svg/logo.svg" alt="Digikala-logo"/></Link>
@@ -24,7 +24,7 @@ const Header = ()=>{
                                 <EnterBtn/>
                             </Col>
                         </Row>
-                    </Container>
+                    </div>
                 </Container>
                 </div>
             </Affix>

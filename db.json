@@ -37,5 +37,125 @@
       "title": "گوشی موبایل"
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "id": 29322723,
+      "lead_time": 0,
+      "rank": 97.73,
+      "rate": 73.4,
+      "statistics": {
+        "totally_satisfied": {
+          "rate_count": 28,
+          "rate": 33.73
+        },
+        "satisfied": {
+          "rate_count": 26,
+          "rate": 31.33
+        },
+        "neutral": {
+          "rate_count": 11,
+          "rate": 13.25
+        },
+        "dissatisfied": {
+          "rate_count": 10,
+          "rate": 12.05
+        },
+        "totally_dissatisfied": {
+          "rate_count": 8,
+          "rate": 9.64
+        },
+        "total_count": 83,
+        "total_rate": 73.4
+      },
+      "status": "marketable",
+      "properties": {
+        "is_fast_shipping": false,
+        "is_ship_by_seller": false,
+        "is_multi_warehouse": false,
+        "has_similar_variants": true,
+        "is_rural": false,
+        "in_digikala_warehouse": true
+      },
+      "digiplus": {
+        "services": [
+          "2,025 تومان هدیه نقدی",
+          "ارسال رایگان",
+          "امکان ارسال فوری (شهر تهران)"
+        ],
+        "is_jet_eligible": true,
+        "cash_back": 20250,
+        "is_general_location_jet_eligible": false
+      },
+      "size": {
+        "id": 9268,
+        "title": "42"
+      },
+      "warranty": {
+        "id": 272,
+        "title_fa": "گارانتی اصالت و سلامت فیزیکی کالا",
+        "title_en": "گارانتی اصالت و سلامت فیزیکی کالا"
+      },
+      "seller": {
+        "id": 246313,
+        "title": "کفش رادین",
+        "code": "AVNK5",
+        "url": "https://www.digikala.com/seller/AVNK5/",
+        "rating": {
+          "total_rate": 82,
+          "total_count": 5674,
+          "commitment": 100,
+          "no_return": 99.2,
+          "on_time_shipping": 100
+        },
+        "properties": {
+          "is_trusted": false,
+          "is_official": false,
+          "is_roosta": false,
+          "is_new": false
+        },
+        "stars": 4.1,
+        "registration_date": "3 سال و 2 هفته"
+      },
+      "digiclub": {
+        "point": 21
+      },
+      "price": {
+        "selling_price": 2025000,
+        "rrp_price": 2900000,
+        "order_limit": 1,
+        "is_incredible": false,
+        "is_promotion": true,
+        "is_locked_for_digiplus": false,
+        "discount_percent": 30,
+        "badge": {
+          "title": "فروش ویژه",
+          "color": "#E6123D",
+          "icon": null
+        },
+        "is_digiplus_promotion": false,
+        "is_digiplus_early_access": false,
+        "is_application_incredible": false,
+        "is_lightening_deal": false,
+        "is_plus_early_access": false
+      },
+      "has_importer_price": false,
+      "manufacture_price_not_exist": false,
+      "shipment_methods": {
+        "description": "موجود در انبار دیجی‌کالا",
+        "has_lead_time": true,
+        "providers": [
+          {
+            "title": "ارسال دیجی‌کالا",
+            "description": "این کالا در انبار دیجی‌کالا موجود و آماده پردازش است و توسط پیک دیجی‌کالا در بازه انتخابی ارسال خواهد شد.",
+            "has_lead_time": false,
+            "type": "digikala"
+          }
+        ]
+      },
+      "title_fa": "کفش پیاده روی مردانه مدل NOV-BK",
+      "link": "/product/6866113",
+      "image": "https://dkstatics-public.digikala.com/digikala-products/ab38625a30baf2719dea99870464bdeaf5216f97_1635343303.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "count": 1
+    }
+  ]
 }
